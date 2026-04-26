@@ -1,2 +1,2 @@
 # native
-OwlMeans React Native libraries
+OwlMeans monorepo for React Native libraries
