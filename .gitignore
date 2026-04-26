@@ -1,3 +1,6 @@
+# OS specific files
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -141,3 +144,20 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Project specific build artifacts
+/packages/*/build/*
+!/packages/*/build/.gitkeep
+
+# Tmp files from dev containers
+/tmp/*
+
+# GitKeep
+!.gitkeep
+
+# Deployments
+dev.values.yaml
+.env
+
+# Typescript
+tsconfig.tsbuildinfo
