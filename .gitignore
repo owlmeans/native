@@ -148,6 +148,8 @@ vite.config.ts.timestamp-*
 # Project specific build artifacts
 /packages/*/build/*
 !/packages/*/build/.gitkeep
+/libraries/*
+!/libraries/.gitkeep
 
 # Tmp files from dev containers
 /tmp/*
