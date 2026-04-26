@@ -1,6 +1,6 @@
 import type { FC } from 'react'
 import { useCallback, useMemo } from 'react'
-import type { FormProps } from '@owlmeans/client-panel'
+import type { FormProps, FormRef } from '@owlmeans/client-panel'
 import { FormProvider, useForm } from 'react-hook-form'
 import { ajvResolver } from '@hookform/resolvers/ajv'
 import { Card, useTheme } from 'react-native-paper'
@@ -50,7 +50,7 @@ export const Form: FC<FormProps> = (props) => {
 
 
   if (formRef != null) {
-    formRef.current = { form, update, loader, error: setError }
+    formRef.current = { form, update, loader, error: setError } as unknown as FormRef<any>
   }
 
   const colors = useColors({ backgroundColor: 'surfaceVariant' })
