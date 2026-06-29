@@ -26,6 +26,39 @@ Core (common) → Client (common) → Native (this repo)
 - **Client packages** (`@owlmeans/client`, `@owlmeans/client-auth`, etc.) are platform-agnostic React packages, also in [owlmeans/common](https://github.com/owlmeans/common)
 - **Native packages** (this repo) provide React Native-specific implementations on top of the client layer
 
+## 🤖 Agent guidance
+
+Every published `@owlmeans/native-*` package ships embedded Claude Code skills and GitHub Copilot instructions under `agent-meta/`. These files are version-matched to each package release and guide AI assistants in using the OwlMeans Native framework correctly.
+
+### Install agent guidance
+
+After installing OwlMeans Native packages, run the agent-skills installer once:
+
+```sh
+npx @owlmeans/agent-skills
+```
+
+This scans `node_modules/@owlmeans/*/agent-meta/`, shows you what guidance is available, and (with your confirmation) copies it into your project's native locations:
+- **Claude Code**: `.claude/skills/<name>/SKILL.md`
+- **GitHub Copilot**: `.github/instructions/<name>.instructions.md`
+
+Re-run after updating `@owlmeans/*` packages to pick up revised guidance.
+
+### Schema
+
+Each package's `agent-meta/` directory contains:
+
+```
+agent-meta/
+  manifest.json              # name, version, canonical GitHub paths, entries list
+  skills/<name>/
+    SKILL.md                 # Claude Code skill (auto-invoked on relevant context)
+  instructions/
+    <name>.instructions.md   # GitHub Copilot instruction
+```
+
+Embedded files are **generated and read-only**. To suggest edits, open a PR against [owlmeans/native](https://github.com/owlmeans/native).
+
 ## 🚀 **Quick Start**
 
 ### Install

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "package": "@owlmeans/native-db",
+  "version": "0.1.2",
+  "generatedAt": "2026-06-11T11:39:42.298Z",
+  "canonicalRepo": "https://github.com/owlmeans/native",
+  "entries": [
+    {
+      "kind": "skill",
+      "name": "native-db",
+      "category": "package-specific",
+      "file": "skills/native-db/SKILL.md",
+      "canonicalPath": ".claude/skills/native-db/SKILL.md"
+    },
+    {
+      "kind": "instruction",
+      "name": "native-db",
+      "category": "package-specific",
+      "file": "instructions/native-db.instructions.md",
+      "canonicalPath": ".github/instructions/native-db.instructions.md"
+    }
+  ]
+}

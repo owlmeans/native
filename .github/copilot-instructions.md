@@ -61,3 +61,5 @@ bun run watch                  # watch mode for all packages in packages/
 - **Versioning**: see `.github/instructions/versions.instructions.md` — synchronized version bumps
 - **TypeScript configs**: see `.github/instructions/tsconfig.instructions.md` — which config to extend
 - **Creating instructions**: see `.github/instructions/create-skill.instructions.md`
+- **Package-specific usage**: each package has its own instruction at `.github/instructions/<package-name>.instructions.md` (`native-client`, `native-db`, `native-panel`, `native-router`) — applied when editing files related to that package.
+- **Agent-meta schema (embedded guidance)**: Every published `@owlmeans/native-*` package ships embedded copies of its skill and instruction in `packages/<pkg>/agent-meta/`. These are **generated and read-only** — always edit the canonical file at `.github/instructions/<name>.instructions.md`, then regenerate via `bun run scripts/sync-agent-meta.ts --project native --canonical-repo https://github.com/owlmeans/native` in the library-manager. Never hand-edit an embedded copy.

@@ -1,5 +1,11 @@
 # OwlMeans Native — Project Context
 
+## Git Policy
+
+- **Never run state-changing git operations** (`commit`, `add`/`rm` staging, `push`, `reset`/rollback, `revert`, `rebase`, `merge`, `branch`, `checkout`/`switch`, `stash`, `tag`, `cherry-pick`, force-push, etc.) in this repository unless the user **explicitly instructs it in the current request**. Permission to make code edits is **not** permission to touch git.
+- **Only exception**: creating and operating inside a **temporary git worktree** that a task or subagent has **explicitly requested** for that purpose. Outside such an explicitly requested tmp worktree, do nothing with git.
+- **Read-only inspection is allowed**: `git status`, `git diff`, `git log`, `git show`, `git branch --list`, etc. — use these to report state, never to change it.
+
 ## Memory & Meta-file Rules
 
 All project memory and meta-information must be stored inside this project, never in `~/.claude/`:
@@ -61,3 +67,5 @@ bun run watch                  # watch mode for all packages in packages/
 - **Creating skills**: skill at `.claude/skills/create-skill/SKILL.md`
 - **Versioning**: skill at `.claude/skills/versions/SKILL.md`
 - **TypeScript configs**: skill at `.claude/skills/tsconfig/SKILL.md`
+- **Package-specific usage**: each package has its own skill at `.claude/skills/<package-name>/SKILL.md` (`native-client`, `native-db`, `native-panel`, `native-router`) — auto-invoked when working with that package.
+- **Agent-meta schema (embedded guidance)**: Every published `@owlmeans/native-*` package ships embedded copies of its skill and instruction in `packages/<pkg>/agent-meta/` (layout: `skills/<name>/SKILL.md`, `instructions/<name>.instructions.md`, `manifest.json`). These are **generated and read-only** — always edit the canonical file at `.claude/skills/<name>/SKILL.md` or `.github/instructions/<name>.instructions.md`, then regenerate via `bun run scripts/sync-agent-meta.ts --project native --canonical-repo https://github.com/owlmeans/native` in the library-manager. Never hand-edit an embedded copy.

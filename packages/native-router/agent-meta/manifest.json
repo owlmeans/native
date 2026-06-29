@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "package": "@owlmeans/native-router",
+  "version": "0.1.2",
+  "generatedAt": "2026-06-11T11:39:42.299Z",
+  "canonicalRepo": "https://github.com/owlmeans/native",
+  "entries": [
+    {
+      "kind": "skill",
+      "name": "native-router",
+      "category": "package-specific",
+      "file": "skills/native-router/SKILL.md",
+      "canonicalPath": ".claude/skills/native-router/SKILL.md"
+    },
+    {
+      "kind": "instruction",
+      "name": "native-router",
+      "category": "package-specific",
+      "file": "instructions/native-router.instructions.md",
+      "canonicalPath": ".github/instructions/native-router.instructions.md"
+    }
+  ]
+}
