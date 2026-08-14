@@ -1,23 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "package": "@owlmeans/native-client",
   "version": "0.1.2",
-  "generatedAt": "2026-06-11T11:39:42.299Z",
-  "canonicalRepo": "https://github.com/owlmeans/native",
+  "generatedAt": "2026-08-11T16:24:07.348Z",
+  "canonicalRepo": "https://github.com/owlmeans/common",
   "entries": [
     {
       "kind": "skill",
       "name": "native-client",
       "category": "package-specific",
       "file": "skills/native-client/SKILL.md",
-      "canonicalPath": ".claude/skills/native-client/SKILL.md"
-    },
-    {
-      "kind": "instruction",
-      "name": "native-client",
-      "category": "package-specific",
-      "file": "instructions/native-client.instructions.md",
-      "canonicalPath": ".github/instructions/native-client.instructions.md"
+      "canonicalPath": ".agents/skills/native-client/SKILL.md"
     }
   ]
 }

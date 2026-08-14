@@ -39,8 +39,9 @@ npx @owlmeans/agent-skills
 ```
 
 This scans `node_modules/@owlmeans/*/agent-meta/`, shows you what guidance is available, and (with your confirmation) copies it into your project's native locations:
-- **Claude Code**: `.claude/skills/<name>/SKILL.md`
-- **GitHub Copilot**: `.github/instructions/<name>.instructions.md`
+Skills land in `.agents/skills/<name>/SKILL.md` — the Agent Skills standard location read by
+GitHub Copilot, Codex and others. A project that also uses Claude Code gets the per-skill symlinks
+it needs under `.claude/skills/`.
 
 Re-run after updating `@owlmeans/*` packages to pick up revised guidance.
 

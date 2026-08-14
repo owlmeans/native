@@ -163,3 +163,7 @@ dev.values.yaml
 
 # Typescript
 tsconfig.tsbuildinfo
+
+# Generated Claude Code skill symlinks (canonical skills live in .agents/skills/)
+.claude/skills/*
+!.claude/skills/.gitkeep

@@ -588,10 +588,9 @@ See the LICENSE file in the repository root for license information.
 <!-- owlmeans:agent-guidance:start -->
 ## Agent guidance
 
-This package ships embedded Claude Code skills and GitHub Copilot instructions under
-`agent-meta/`. After installing your `@owlmeans/*` packages, run the OwlMeans
-agent-skills installer to place them into your project's native locations
-(`.claude/skills/` and `.github/instructions/`):
+This package ships embedded agent skills under `agent-meta/`. After installing your
+`@owlmeans/*` packages, run the OwlMeans agent-skills installer to place them into
+your project's skill store (`.agents/skills/`):
 
 ```sh
 npx @owlmeans/agent-skills

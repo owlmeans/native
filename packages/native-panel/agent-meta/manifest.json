@@ -1,23 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "package": "@owlmeans/native-panel",
   "version": "0.1.2",
-  "generatedAt": "2026-06-11T11:39:42.298Z",
-  "canonicalRepo": "https://github.com/owlmeans/native",
+  "generatedAt": "2026-08-11T16:24:07.348Z",
+  "canonicalRepo": "https://github.com/owlmeans/common",
   "entries": [
     {
       "kind": "skill",
       "name": "native-panel",
       "category": "package-specific",
       "file": "skills/native-panel/SKILL.md",
-      "canonicalPath": ".claude/skills/native-panel/SKILL.md"
-    },
-    {
-      "kind": "instruction",
-      "name": "native-panel",
-      "category": "package-specific",
-      "file": "instructions/native-panel.instructions.md",
-      "canonicalPath": ".github/instructions/native-panel.instructions.md"
+      "canonicalPath": ".agents/skills/native-panel/SKILL.md"
     }
   ]
 }
