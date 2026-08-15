@@ -25,6 +25,13 @@ unless the operator explicitly asks for another format, length, or level of deta
   **Why** (one short phrase). One table per affected project (each is a separate repo).
 - Findings / status / verification: a short table plus at most a few lines of prose.
 - No preamble, no narration of the process; expand on WHY only when asked.
+- At most **one phrase per issue** — until the operator asks otherwise.
+- Findings and advice **not acted on** go in their own explicit separate section, kept as short
+  as possible — never mixed with what was done.
+- Explaining an issue = a table with **Where | Cause | Effects | Code details**. Code details and
+  explanation are never one sentence — always two separate sentences.
+- Modes aimed **"to impress"** (from LLM training or agent defaults): forget and avoid them — at
+  minimum keep them out of reports — until the operator explicitly asks.
 
 ## Memory
 
