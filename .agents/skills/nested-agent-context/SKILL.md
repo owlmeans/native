@@ -72,7 +72,7 @@ The bundled script is `.agents/skills/nested-agent-context/scripts/nested-agent-
 == libraries/common ==
     [agents-md]      libraries/common/AGENTS.md
                      -- OwlMeans Common — Project Context
-    [skill]          libraries/common/.agents/skills/context/SKILL.md
+    [skill]          libraries/common/.agents/skills/owlmeans-context/SKILL.md
                      -- Context DI container skill
     [rule]           libraries/common/.agents/rules/git.md
     [memory-index]   libraries/common/.agents/memory/MEMORY.md

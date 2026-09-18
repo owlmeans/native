@@ -22,7 +22,7 @@ This package follows the OwlMeans "quadra" pattern as the **React Native** imple
 ## Installation
 
 ```bash
-npm install @owlmeans/native-panel
+npm install @owlmeans/native-panel@^0.1.2
 ```
 
 ### Peer Dependencies
@@ -958,7 +958,7 @@ This package ships embedded agent skills under `agent-meta/`. After installing y
 your project's skill store (`.agents/skills/`):
 
 ```sh
-npx @owlmeans/agent-skills
+npx @owlmeans/agent-skills@^0.1.18-rc.28
 ```
 
 The embedded files are version-matched to this package release. Do not edit them

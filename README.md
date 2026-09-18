@@ -35,7 +35,7 @@ Every published `@owlmeans/native-*` package ships embedded Claude Code skills a
 After installing OwlMeans Native packages, run the agent-skills installer once:
 
 ```sh
-npx @owlmeans/agent-skills
+npx @owlmeans/agent-skills@^0.1.18-rc.28
 ```
 
 This scans `node_modules/@owlmeans/*/agent-meta/`, shows you what guidance is available, and (with your confirmation) copies it into your project's native locations:
@@ -65,7 +65,7 @@ Embedded files are **generated and read-only**. To suggest edits, open a PR agai
 ### Install
 
 ```bash
-npm install @owlmeans/native-client @owlmeans/native-panel
+npm install @owlmeans/native-client@^0.1.2 @owlmeans/native-panel@^0.1.2
 ```
 
 React Native peer dependencies required:

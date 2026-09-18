@@ -45,8 +45,8 @@ For each old file or section:
 1. Union `.claude/memory/` and `.github/memory/`. Same-named files are two drifted sources of
    ONE node — merge both; the code-consistent version wins.
 2. Index-only entries with no backing file: extract the fact into its node, or drop if stale.
-3. Old `## Skills` / "Key Files" index sections are dropped — skills self-describe; harness
-   layout belongs to `AGENTS.md`. Move genuinely non-obvious dispatch hints there.
+3. Old `## Skills` / "Key Files" index sections are dropped — skills self-describe; harness layout belongs to `AGENTS.md`; a genuinely non-obvious dispatch hint goes into the
+   owning skill's `description:`, never into `AGENTS.md`.
 4. When the new store verifies (below), delete both legacy dirs entirely.
 
 ## Regenerate the index

@@ -21,18 +21,18 @@
     }
   },
   "dependencies": {
-    "@owlmeans/api-config-client": "^0.1.2",
-    "@owlmeans/client": "^0.1.2",
-    "@owlmeans/client-auth": "^0.1.2",
-    "@owlmeans/client-context": "^0.1.2",
-    "@owlmeans/client-resource": "^0.1.2",
+    "@owlmeans/api-config-client": "^0.1.18-rc.27",
+    "@owlmeans/client": "^0.1.18-rc.32",
+    "@owlmeans/client-auth": "^0.1.18-rc.37",
+    "@owlmeans/client-context": "^0.1.18-rc.30",
+    "@owlmeans/client-resource": "^0.1.18-rc.29",
     "@owlmeans/native-db": "^0.1.2",
     "@owlmeans/native-router": "^0.1.2",
-    "@owlmeans/route": "^0.1.2",
+    "@owlmeans/route": "^0.1.18-rc.26",
     "react-native-dotenv": "^3.4.11"
   },
   "peerDependencies": {
-    "@owlmeans/router": "*",
+    "@owlmeans/router": "^0.1.18-rc.24",
     "react": "*",
     "react-native": "*",
     "react-native-permissions": "*",

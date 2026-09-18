@@ -32,7 +32,7 @@
     "typescript": "^6.0.2"
   },
   "dependencies": {
-    "@owlmeans/router": "^0.1.2",
+    "@owlmeans/router": "^0.1.18-rc.24",
     "react-router-native": "6.30.0"
   },
   "publishConfig": {
