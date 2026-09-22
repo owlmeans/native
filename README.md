@@ -35,7 +35,7 @@ Every published `@owlmeans/native-*` package ships embedded Claude Code skills a
 After installing OwlMeans Native packages, run the agent-skills installer once:
 
 ```sh
-npx @owlmeans/agent-skills@^0.1.18-rc.37
+npx @owlmeans/agent-skills@^0.1.18-rc.36
 ```
 
 This scans `node_modules/@owlmeans/*/agent-meta/`, shows you what guidance is available, and (with your confirmation) copies it into your project's native locations:
