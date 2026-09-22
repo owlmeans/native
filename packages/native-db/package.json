@@ -21,9 +21,9 @@
     }
   },
   "dependencies": {
-    "@owlmeans/client-context": "^0.1.18-rc.36",
-    "@owlmeans/client-resource": "^0.1.18-rc.35",
-    "@owlmeans/context": "^0.1.18-rc.31"
+    "@owlmeans/client-context": "^0.1.18-rc.37",
+    "@owlmeans/client-resource": "^0.1.18-rc.36",
+    "@owlmeans/context": "^0.1.18-rc.32"
   },
   "peerDependencies": {
     "@react-native-async-storage/async-storage": "*"
