@@ -18,6 +18,7 @@ user-invocable: false
 | `useContext<C, T>()` | React hook — access the app context inside any component |
 | `AppConfig` | Config type extending `ClientConfig` with `environments` map and `debug.webView` |
 | `AppContext<C>` | Context interface extending `ClientContext` + `AuthServiceAppend` + `PermissionsAppend` |
+| `entrypoints` / `modules` | Runtime-config entrypoints; `modules` remains a compatibility alias |
 | `PermissionService` | Interface for device-permission service (`request`, `settings`) |
 | `PermissionsAppend` | Mixin — adds `context.permissions()` to a context |
 | `ENV_DEFAULT`, `ENV_DEV`, `ENV_TEST`, `ENV_PROD`, `ENV_STAGE` | Environment name constants |
@@ -53,6 +54,9 @@ await context.configure().init()
 - **permissions** — native device permissions (`context.permissions().request('camera')`)
 - **db** — AsyncStorage-backed key-value store (via `@owlmeans/native-db`)
 - **router** — React Router Native memory router (via `@owlmeans/native-router`)
+
+The native context retains `context.makeContext(cfg)` as its typed factory. Common client
+contexts do not declare this native extension.
 
 ## Depends On
 

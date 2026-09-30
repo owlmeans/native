@@ -1,7 +1,7 @@
 
 export {
   handler, useContext, Context, useNavigate, useValue, useSetupModalNavigator,
-  useToggle, useStoreModel, useStoreList, useModule
+  useToggle, useStoreModel, useStoreList, useEntrypoint, useEntrypoint as useModule
 } from '@owlmeans/client'
 export type { ModalBodyProps, ModalService } from '@owlmeans/client'
 export { config } from '@owlmeans/client-context'
@@ -28,6 +28,6 @@ export * from '@owlmeans/client-panel'
 export type { AbstractRequest } from '@owlmeans/module'
 export type { ResourceRecord } from '@owlmeans/resource'
 
-export { useCommonI18n, useI18nApp } from '@owlmeans/client-i18n'
-export { addCommonI18n, addI18nApp } from '@owlmeans/i18n'
+export { useI18nLib, useI18nLib as useCommonI18n, useI18nApp } from '@owlmeans/client-i18n'
+export { addI18nLib, addI18nLib as addCommonI18n, addI18nApp } from '@owlmeans/i18n'
 export { ResilientError } from '@owlmeans/error'

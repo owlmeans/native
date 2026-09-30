@@ -16,6 +16,7 @@ export interface AppConfig extends ClientConfig {
 export interface AppContext<C extends AppConfig = AppConfig> extends ClientContext<C>,
   AuthServiceAppend,
   PermissionsAppend {
+  makeContext: <D extends AppConfig = AppConfig, U extends AppContext<D> = AppContext<D>>(cfg: D) => U
 }
 
 export interface PermissionService extends InitializedService, PermissionServicePlugin {

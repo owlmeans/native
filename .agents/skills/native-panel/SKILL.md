@@ -16,15 +16,18 @@ user-invocable: false
 | `PanelApp` | Root panel wrapper — provides theme, auth, context (`context`, `fonts`, `colors`, `icons`) |
 | `makeContext` | Re-exported from `@owlmeans/native-client` — use this in panel apps instead of importing from native-client directly |
 | `AppConfig`, `AppContext` | Re-exported types from `@owlmeans/native-client` |
-| `handler`, `useContext` | Module handler and context hook (from `@owlmeans/client`) |
+| `handler`, `useContext`, `useEntrypoint` | Entrypoint handler and context hooks; `useModule` aliases `useEntrypoint` |
 | `module`, `elevate`, `stab` | Module factories (from `@owlmeans/client-module`) |
 | `route`, `frontend`, `croute` | Route factories |
 | `guard`, `parent` | Module guard helpers |
 | `config`, `service` | Config/service helpers |
-| `useCommonI18n`, `useI18nApp` | i18n hooks for components |
-| `addCommonI18n`, `addI18nApp` | i18n registration helpers |
+| `useI18nLib`, `useCommonI18n`, `useI18nApp` | Library/app translation hooks; `useCommonI18n` aliases `useI18nLib` |
+| `addI18nLib`, `addCommonI18n`, `addI18nApp` | Library/app registration; `addCommonI18n` aliases `addI18nLib` |
 | `DAUTH_GUARD` | Default auth guard alias constant |
 | All `@owlmeans/client-panel` exports | Shared panel primitives |
+
+`entrypoints` combines authentication and runtime-config bindings from the common client
+packages; `modules` is its compatibility alias.
 
 ## PanelApp Props
 
