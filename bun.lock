@@ -10,22 +10,23 @@
     },
     "libraries/common/packages/api": {
       "name": "@owlmeans/api",
-      "version": "0.1.18-rc.44",
+      "version": "0.1.18-rc.45",
       "dependencies": {
-        "@owlmeans/auth-common": "^0.1.18-rc.44",
-        "@owlmeans/client-config": "^0.1.18-rc.41",
-        "@owlmeans/client-route": "^0.1.18-rc.45",
-        "@owlmeans/config": "^0.1.18-rc.41",
+        "@owlmeans/auth-common": "^0.1.18-rc.45",
+        "@owlmeans/client-config": "^0.1.18-rc.42",
+        "@owlmeans/client-route": "^0.1.18-rc.46",
+        "@owlmeans/config": "^0.1.18-rc.42",
         "@owlmeans/context": "^0.1.18-rc.32",
         "@owlmeans/entrypoint": "^0.1.18-rc.39",
         "@owlmeans/error": "^0.1.18-rc.36",
+        "@owlmeans/log": "^0.1.18-rc.0",
         "@owlmeans/route": "^0.1.18-rc.33",
         "axios": "^1.7.7",
         "qs": "^6.13.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/resource": "^0.1.18-rc.37",
+        "@owlmeans/resource": "^0.1.18-rc.38",
         "@types/qs": "^6.9.16",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
@@ -33,9 +34,9 @@
     },
     "libraries/common/packages/api-config": {
       "name": "@owlmeans/api-config",
-      "version": "0.1.18-rc.40",
+      "version": "0.1.18-rc.41",
       "dependencies": {
-        "@owlmeans/config": "^0.1.18-rc.41",
+        "@owlmeans/config": "^0.1.18-rc.42",
         "@owlmeans/context": "^0.1.18-rc.32",
         "@owlmeans/entrypoint": "^0.1.18-rc.39",
         "@owlmeans/route": "^0.1.18-rc.33",
@@ -48,12 +49,13 @@
     },
     "libraries/common/packages/api-config-client": {
       "name": "@owlmeans/api-config-client",
-      "version": "0.1.18-rc.42",
+      "version": "0.1.18-rc.43",
       "dependencies": {
-        "@owlmeans/api-config": "^0.1.18-rc.40",
-        "@owlmeans/client-context": "^0.1.18-rc.45",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.44",
+        "@owlmeans/api-config": "^0.1.18-rc.41",
+        "@owlmeans/client-context": "^0.1.18-rc.46",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
         "@owlmeans/context": "^0.1.18-rc.32",
+        "@owlmeans/log": "^0.1.18-rc.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -80,21 +82,21 @@
     },
     "libraries/common/packages/auth-common": {
       "name": "@owlmeans/auth-common",
-      "version": "0.1.18-rc.44",
+      "version": "0.1.18-rc.45",
       "dependencies": {
         "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/auth-common": "^0.1.18-rc.44",
-        "@owlmeans/basic-ids": "^0.1.18-rc.34",
-        "@owlmeans/basic-keys": "^0.1.18-rc.45",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.44",
+        "@owlmeans/auth-common": "^0.1.18-rc.45",
+        "@owlmeans/basic-ids": "^0.1.18-rc.35",
+        "@owlmeans/basic-keys": "^0.1.18-rc.46",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
         "@owlmeans/context": "^0.1.18-rc.32",
         "@owlmeans/entrypoint": "^0.1.18-rc.39",
-        "@owlmeans/resource": "^0.1.18-rc.37",
+        "@owlmeans/resource": "^0.1.18-rc.38",
         "@owlmeans/route": "^0.1.18-rc.33",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/test-auth": "^0.1.18-rc.43",
+        "@owlmeans/test-auth": "^0.1.18-rc.44",
         "@types/bun": "^1.4.0",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
@@ -102,16 +104,16 @@
     },
     "libraries/common/packages/basic-envelope": {
       "name": "@owlmeans/basic-envelope",
-      "version": "0.1.18-rc.43",
+      "version": "0.1.18-rc.44",
       "dependencies": {
         "@noble/curves": "^1.6.0",
         "@noble/hashes": "^1.5.0",
-        "@owlmeans/basic-keys": "^0.1.18-rc.45",
+        "@owlmeans/basic-keys": "^0.1.18-rc.46",
         "@scure/base": "^2.3.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/test-auth": "^0.1.18-rc.43",
+        "@owlmeans/test-auth": "^0.1.18-rc.44",
         "@types/bun": "^1.4.0",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
@@ -119,7 +121,7 @@
     },
     "libraries/common/packages/basic-ids": {
       "name": "@owlmeans/basic-ids",
-      "version": "0.1.18-rc.34",
+      "version": "0.1.18-rc.35",
       "dependencies": {
         "@noble/hashes": "^1.5.0",
         "@scure/base": "^2.3.0",
@@ -134,7 +136,7 @@
     },
     "libraries/common/packages/basic-keys": {
       "name": "@owlmeans/basic-keys",
-      "version": "0.1.18-rc.45",
+      "version": "0.1.18-rc.46",
       "bin": {
         "owlkeys": "build/bin.js",
       },
@@ -148,7 +150,7 @@
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/test-auth": "^0.1.18-rc.43",
+        "@owlmeans/test-auth": "^0.1.18-rc.44",
         "@types/bun": "^1.4.0",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
@@ -156,23 +158,23 @@
     },
     "libraries/common/packages/client": {
       "name": "@owlmeans/client",
-      "version": "0.1.18-rc.48",
+      "version": "0.1.18-rc.49",
       "dependencies": {
         "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/client-context": "^0.1.18-rc.45",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.44",
-        "@owlmeans/client-resource": "^0.1.18-rc.44",
-        "@owlmeans/config": "^0.1.18-rc.41",
+        "@owlmeans/client-context": "^0.1.18-rc.46",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
+        "@owlmeans/client-resource": "^0.1.18-rc.45",
+        "@owlmeans/config": "^0.1.18-rc.42",
         "@owlmeans/context": "^0.1.18-rc.32",
         "@owlmeans/entrypoint": "^0.1.18-rc.39",
         "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/resource": "^0.1.18-rc.37",
+        "@owlmeans/resource": "^0.1.18-rc.38",
         "@owlmeans/router": "^0.1.18-rc.31",
-        "@owlmeans/state": "^0.1.18-rc.36",
+        "@owlmeans/state": "^0.1.18-rc.37",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/test-ui": "^0.1.18-rc.46",
+        "@owlmeans/test-ui": "^0.1.18-rc.47",
         "@types/react": "^19.2.17",
         "@vitejs/plugin-react": "^6.0.3",
         "nodemon": "^3.1.14",
@@ -192,33 +194,34 @@
     },
     "libraries/common/packages/client-auth": {
       "name": "@owlmeans/client-auth",
-      "version": "0.1.18-rc.55",
+      "version": "0.1.18-rc.56",
       "dependencies": {
         "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/auth-common": "^0.1.18-rc.44",
-        "@owlmeans/basic-envelope": "^0.1.18-rc.43",
-        "@owlmeans/basic-keys": "^0.1.18-rc.45",
-        "@owlmeans/client": "^0.1.18-rc.48",
-        "@owlmeans/client-context": "^0.1.18-rc.45",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.44",
-        "@owlmeans/client-flow": "^0.1.18-rc.51",
-        "@owlmeans/client-resource": "^0.1.18-rc.44",
-        "@owlmeans/client-socket": "^0.1.18-rc.46",
-        "@owlmeans/config": "^0.1.18-rc.41",
+        "@owlmeans/auth-common": "^0.1.18-rc.45",
+        "@owlmeans/basic-envelope": "^0.1.18-rc.44",
+        "@owlmeans/basic-keys": "^0.1.18-rc.46",
+        "@owlmeans/client": "^0.1.18-rc.49",
+        "@owlmeans/client-context": "^0.1.18-rc.46",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
+        "@owlmeans/client-flow": "^0.1.18-rc.52",
+        "@owlmeans/client-resource": "^0.1.18-rc.45",
+        "@owlmeans/client-socket": "^0.1.18-rc.47",
+        "@owlmeans/config": "^0.1.18-rc.42",
         "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/did": "^0.1.18-rc.43",
+        "@owlmeans/did": "^0.1.18-rc.44",
         "@owlmeans/entrypoint": "^0.1.18-rc.39",
         "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/flow": "^0.1.18-rc.42",
+        "@owlmeans/flow": "^0.1.18-rc.43",
         "@owlmeans/i18n": "^0.1.18-rc.37",
-        "@owlmeans/resource": "^0.1.18-rc.37",
-        "@owlmeans/socket": "^0.1.18-rc.37",
-        "@owlmeans/web-flow": "^0.1.18-rc.50",
+        "@owlmeans/log": "^0.1.18-rc.0",
+        "@owlmeans/resource": "^0.1.18-rc.38",
+        "@owlmeans/socket": "^0.1.18-rc.38",
+        "@owlmeans/web-flow": "^0.1.18-rc.51",
         "@scure/base": "^2.3.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/test-auth": "^0.1.18-rc.43",
+        "@owlmeans/test-auth": "^0.1.18-rc.44",
         "@types/bun": "^1.4.0",
         "@types/react": "^19.2.17",
         "nodemon": "^3.1.14",
@@ -231,9 +234,9 @@
     },
     "libraries/common/packages/client-config": {
       "name": "@owlmeans/client-config",
-      "version": "0.1.18-rc.41",
+      "version": "0.1.18-rc.42",
       "dependencies": {
-        "@owlmeans/config": "^0.1.18-rc.41",
+        "@owlmeans/config": "^0.1.18-rc.42",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -243,13 +246,14 @@
     },
     "libraries/common/packages/client-context": {
       "name": "@owlmeans/client-context",
-      "version": "0.1.18-rc.45",
+      "version": "0.1.18-rc.46",
       "dependencies": {
-        "@owlmeans/api": "^0.1.18-rc.44",
-        "@owlmeans/client-config": "^0.1.18-rc.41",
-        "@owlmeans/config": "^0.1.18-rc.41",
+        "@owlmeans/api": "^0.1.18-rc.45",
+        "@owlmeans/client-config": "^0.1.18-rc.42",
+        "@owlmeans/config": "^0.1.18-rc.42",
         "@owlmeans/context": "^0.1.18-rc.32",
         "@owlmeans/i18n": "^0.1.18-rc.37",
+        "@owlmeans/log": "^0.1.18-rc.0",
         "@owlmeans/route": "^0.1.18-rc.33",
       },
       "devDependencies": {
@@ -260,24 +264,24 @@
     },
     "libraries/common/packages/client-flow": {
       "name": "@owlmeans/client-flow",
-      "version": "0.1.18-rc.51",
+      "version": "0.1.18-rc.52",
       "dependencies": {
-        "@owlmeans/auth-common": "^0.1.18-rc.44",
-        "@owlmeans/client": "^0.1.18-rc.48",
-        "@owlmeans/client-context": "^0.1.18-rc.45",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.44",
-        "@owlmeans/client-resource": "^0.1.18-rc.44",
-        "@owlmeans/config": "^0.1.18-rc.41",
+        "@owlmeans/auth-common": "^0.1.18-rc.45",
+        "@owlmeans/client": "^0.1.18-rc.49",
+        "@owlmeans/client-context": "^0.1.18-rc.46",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
+        "@owlmeans/client-resource": "^0.1.18-rc.45",
+        "@owlmeans/config": "^0.1.18-rc.42",
         "@owlmeans/context": "^0.1.18-rc.32",
         "@owlmeans/entrypoint": "^0.1.18-rc.39",
         "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/flow": "^0.1.18-rc.42",
-        "@owlmeans/resource": "^0.1.18-rc.37",
+        "@owlmeans/flow": "^0.1.18-rc.43",
+        "@owlmeans/resource": "^0.1.18-rc.38",
         "@owlmeans/route": "^0.1.18-rc.33",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/static-resource": "^0.1.18-rc.36",
+        "@owlmeans/static-resource": "^0.1.18-rc.37",
         "@types/bun": "^1.4.0",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
@@ -288,11 +292,12 @@
     },
     "libraries/common/packages/client-i18n": {
       "name": "@owlmeans/client-i18n",
-      "version": "0.1.18-rc.47",
+      "version": "0.1.18-rc.48",
       "dependencies": {
-        "@owlmeans/client": "^0.1.18-rc.48",
-        "@owlmeans/client-context": "^0.1.18-rc.45",
+        "@owlmeans/client": "^0.1.18-rc.49",
+        "@owlmeans/client-context": "^0.1.18-rc.46",
         "@owlmeans/i18n": "^0.1.18-rc.37",
+        "@owlmeans/log": "^0.1.18-rc.0",
         "i18next": "^26.2.0",
         "react-i18next": "^17.0.11",
       },
@@ -308,19 +313,19 @@
     },
     "libraries/common/packages/client-panel": {
       "name": "@owlmeans/client-panel",
-      "version": "0.1.18-rc.55",
+      "version": "0.1.18-rc.56",
       "dependencies": {
         "@hookform/resolvers": "^5.2.2",
-        "@owlmeans/client": "^0.1.18-rc.48",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.44",
-        "@owlmeans/client-i18n": "^0.1.18-rc.47",
-        "@owlmeans/client-route": "^0.1.18-rc.45",
+        "@owlmeans/client": "^0.1.18-rc.49",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
+        "@owlmeans/client-i18n": "^0.1.18-rc.48",
+        "@owlmeans/client-route": "^0.1.18-rc.46",
         "@owlmeans/entrypoint": "^0.1.18-rc.39",
         "@owlmeans/error": "^0.1.18-rc.36",
       },
       "devDependencies": {
         "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/client-auth": "^0.1.18-rc.55",
+        "@owlmeans/client-auth": "^0.1.18-rc.56",
         "@owlmeans/dep-config": "workspace:*",
         "@types/react": "^19.2.17",
         "nodemon": "^3.1.14",
@@ -329,8 +334,8 @@
       },
       "peerDependencies": {
         "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/client-auth": "^0.1.18-rc.55",
-        "@owlmeans/config": "^0.1.18-rc.41",
+        "@owlmeans/client-auth": "^0.1.18-rc.56",
+        "@owlmeans/config": "^0.1.18-rc.42",
         "@owlmeans/i18n": "^0.1.18-rc.37",
         "@owlmeans/router": "^0.1.18-rc.31",
         "ajv": "*",
@@ -344,12 +349,12 @@
     },
     "libraries/common/packages/client-resource": {
       "name": "@owlmeans/client-resource",
-      "version": "0.1.18-rc.44",
+      "version": "0.1.18-rc.45",
       "dependencies": {
         "@noble/hashes": "^1.5.0",
-        "@owlmeans/client-context": "^0.1.18-rc.45",
+        "@owlmeans/client-context": "^0.1.18-rc.46",
         "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/resource": "^0.1.18-rc.37",
+        "@owlmeans/resource": "^0.1.18-rc.38",
         "@scure/base": "^2.3.0",
       },
       "devDependencies": {
@@ -360,9 +365,9 @@
     },
     "libraries/common/packages/client-route": {
       "name": "@owlmeans/client-route",
-      "version": "0.1.18-rc.45",
+      "version": "0.1.18-rc.46",
       "dependencies": {
-        "@owlmeans/client-context": "^0.1.18-rc.45",
+        "@owlmeans/client-context": "^0.1.18-rc.46",
         "@owlmeans/route": "^0.1.18-rc.33",
       },
       "devDependencies": {
@@ -373,17 +378,18 @@
     },
     "libraries/common/packages/client-socket": {
       "name": "@owlmeans/client-socket",
-      "version": "0.1.18-rc.46",
+      "version": "0.1.18-rc.47",
       "dependencies": {
         "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/basic-envelope": "^0.1.18-rc.43",
-        "@owlmeans/basic-ids": "^0.1.18-rc.34",
-        "@owlmeans/client": "^0.1.18-rc.48",
-        "@owlmeans/client-context": "^0.1.18-rc.45",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.44",
+        "@owlmeans/basic-envelope": "^0.1.18-rc.44",
+        "@owlmeans/basic-ids": "^0.1.18-rc.35",
+        "@owlmeans/client": "^0.1.18-rc.49",
+        "@owlmeans/client-context": "^0.1.18-rc.46",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
         "@owlmeans/context": "^0.1.18-rc.32",
         "@owlmeans/entrypoint": "^0.1.18-rc.39",
-        "@owlmeans/socket": "^0.1.18-rc.37",
+        "@owlmeans/log": "^0.1.18-rc.0",
+        "@owlmeans/socket": "^0.1.18-rc.38",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -398,12 +404,12 @@
     },
     "libraries/common/packages/config": {
       "name": "@owlmeans/config",
-      "version": "0.1.18-rc.41",
+      "version": "0.1.18-rc.42",
       "dependencies": {
         "@owlmeans/auth": "^0.1.18-rc.38",
         "@owlmeans/context": "^0.1.18-rc.32",
         "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/resource": "^0.1.18-rc.37",
+        "@owlmeans/resource": "^0.1.18-rc.38",
         "@owlmeans/route": "^0.1.18-rc.33",
       },
       "devDependencies": {
@@ -430,15 +436,15 @@
     },
     "libraries/common/packages/did": {
       "name": "@owlmeans/did",
-      "version": "0.1.18-rc.43",
+      "version": "0.1.18-rc.44",
       "dependencies": {
         "@noble/curves": "^1.6.0",
         "@noble/hashes": "^1.5.0",
         "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/basic-keys": "^0.1.18-rc.45",
+        "@owlmeans/basic-keys": "^0.1.18-rc.46",
         "@owlmeans/error": "^0.1.18-rc.36",
         "@owlmeans/i18n": "^0.1.18-rc.37",
-        "@owlmeans/resource": "^0.1.18-rc.37",
+        "@owlmeans/resource": "^0.1.18-rc.38",
         "@scure/base": "^2.3.0",
         "@scure/bip39": "^1.4.0",
       },
@@ -462,13 +468,13 @@
     },
     "libraries/common/packages/flow": {
       "name": "@owlmeans/flow",
-      "version": "0.1.18-rc.42",
+      "version": "0.1.18-rc.43",
       "dependencies": {
         "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/config": "^0.1.18-rc.41",
+        "@owlmeans/config": "^0.1.18-rc.42",
         "@owlmeans/error": "^0.1.18-rc.36",
         "@owlmeans/i18n": "^0.1.18-rc.37",
-        "@owlmeans/resource": "^0.1.18-rc.37",
+        "@owlmeans/resource": "^0.1.18-rc.38",
         "@scure/base": "^2.3.0",
       },
       "devDependencies": {
@@ -488,7 +494,7 @@
     },
     "libraries/common/packages/resource": {
       "name": "@owlmeans/resource",
-      "version": "0.1.18-rc.37",
+      "version": "0.1.18-rc.38",
       "dependencies": {
         "@owlmeans/context": "^0.1.18-rc.32",
         "@owlmeans/error": "^0.1.18-rc.36",
@@ -534,11 +540,12 @@
     },
     "libraries/common/packages/socket": {
       "name": "@owlmeans/socket",
-      "version": "0.1.18-rc.37",
+      "version": "0.1.18-rc.38",
       "dependencies": {
         "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/basic-ids": "^0.1.18-rc.34",
+        "@owlmeans/basic-ids": "^0.1.18-rc.35",
         "@owlmeans/error": "^0.1.18-rc.36",
+        "@owlmeans/log": "^0.1.18-rc.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -548,10 +555,10 @@
     },
     "libraries/common/packages/state": {
       "name": "@owlmeans/state",
-      "version": "0.1.18-rc.36",
+      "version": "0.1.18-rc.37",
       "dependencies": {
         "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/resource": "^0.1.18-rc.37",
+        "@owlmeans/resource": "^0.1.18-rc.38",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -561,16 +568,16 @@
     },
     "libraries/common/packages/web-flow": {
       "name": "@owlmeans/web-flow",
-      "version": "0.1.18-rc.50",
+      "version": "0.1.18-rc.51",
       "dependencies": {
-        "@owlmeans/client": "^0.1.18-rc.48",
-        "@owlmeans/client-context": "^0.1.18-rc.45",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.44",
-        "@owlmeans/client-flow": "^0.1.18-rc.51",
-        "@owlmeans/client-resource": "^0.1.18-rc.44",
+        "@owlmeans/client": "^0.1.18-rc.49",
+        "@owlmeans/client-context": "^0.1.18-rc.46",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
+        "@owlmeans/client-flow": "^0.1.18-rc.52",
+        "@owlmeans/client-resource": "^0.1.18-rc.45",
         "@owlmeans/context": "^0.1.18-rc.32",
         "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/flow": "^0.1.18-rc.42",
+        "@owlmeans/flow": "^0.1.18-rc.43",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -918,7 +925,7 @@
 
     "@owlmeans/client-context": ["@owlmeans/client-context@workspace:libraries/common/packages/client-context"],
 
-    "@owlmeans/client-entrypoint": ["@owlmeans/client-entrypoint@0.1.18-rc.44", "", { "dependencies": { "@owlmeans/api": "^0.1.18-rc.44", "@owlmeans/client-config": "^0.1.18-rc.41", "@owlmeans/client-context": "^0.1.18-rc.45", "@owlmeans/client-route": "^0.1.18-rc.45", "@owlmeans/config": "^0.1.18-rc.41", "@owlmeans/context": "^0.1.18-rc.32", "@owlmeans/entrypoint": "^0.1.18-rc.39", "@owlmeans/error": "^0.1.18-rc.36", "@owlmeans/route": "^0.1.18-rc.33", "ajv-formats": "^3.0.1", "qs": "^6.13.0" }, "peerDependencies": { "ajv": "*" } }, "sha512-xIXOwyQU2rtyG9oMpdNBrAoejp8Hfy66RaXp3kKZR9s47Zdi8oAGApcmt0bJ9H/UY8kqJfxkHMX5KERdMqVX8w=="],
+    "@owlmeans/client-entrypoint": ["@owlmeans/client-entrypoint@0.1.18-rc.45", "", { "dependencies": { "@owlmeans/api": "^0.1.18-rc.45", "@owlmeans/client-config": "^0.1.18-rc.42", "@owlmeans/client-context": "^0.1.18-rc.46", "@owlmeans/client-route": "^0.1.18-rc.46", "@owlmeans/config": "^0.1.18-rc.42", "@owlmeans/context": "^0.1.18-rc.32", "@owlmeans/entrypoint": "^0.1.18-rc.39", "@owlmeans/error": "^0.1.18-rc.36", "@owlmeans/log": "^0.1.18-rc.0", "@owlmeans/route": "^0.1.18-rc.33", "ajv-formats": "^3.0.1", "qs": "^6.13.0" }, "peerDependencies": { "ajv": "*" } }, "sha512-0yKG23yPxUKtQcQOHLSLNjrznrOByKT55xeBdnCBlV5xs5WRTC09XiebzvVgSBAjnxCBw474GWqSKogJbe+hmA=="],
 
     "@owlmeans/client-flow": ["@owlmeans/client-flow@workspace:libraries/common/packages/client-flow"],
 
@@ -950,6 +957,8 @@
 
     "@owlmeans/i18n": ["@owlmeans/i18n@workspace:libraries/common/packages/i18n"],
 
+    "@owlmeans/log": ["@owlmeans/log@0.1.18-rc.0", "", { "dependencies": { "@owlmeans/context": "^0.1.18-rc.32" } }, "sha512-EAVh5iWRcaistZIjp9vUdtgzfVhZz64Y+KJLhh2/l/iDG+x53CHvHbtwWo5zvTYjeiRORSzz6lrBUmsaJP7gkA=="],
+
     "@owlmeans/module": ["@owlmeans/module@0.1.11", "", { "dependencies": { "@owlmeans/entrypoint": "^0.1.11" } }, "sha512-PdpeOvJJvFoz8Rz1Kg+L+jAJBkS2Yuq5t2kdBQzCP7PIaEYYOYu/zlmJzD5eaHeTIpKkZuo/Q6FxNBzbCpBNJg=="],
 
     "@owlmeans/native-client": ["@owlmeans/native-client@workspace:packages/native-client"],
@@ -970,13 +979,13 @@
 
     "@owlmeans/state": ["@owlmeans/state@workspace:libraries/common/packages/state"],
 
-    "@owlmeans/static-resource": ["@owlmeans/static-resource@0.1.18-rc.36", "", { "dependencies": { "@owlmeans/context": "^0.1.18-rc.32", "@owlmeans/error": "^0.1.18-rc.36", "@owlmeans/resource": "^0.1.18-rc.37" } }, "sha512-ZzfEaDLqRRqHLzy3TCAkPlVMUQTz41Bo9RdhfSziinEMqScGI0H/VNigqG0W5C/xv4izlO5bVeFMC692ddeH8w=="],
+    "@owlmeans/static-resource": ["@owlmeans/static-resource@0.1.18-rc.37", "", { "dependencies": { "@owlmeans/context": "^0.1.18-rc.32", "@owlmeans/error": "^0.1.18-rc.36", "@owlmeans/resource": "^0.1.18-rc.38" } }, "sha512-42vFJCfGUla2D9FGfwUmmrKoXGi6xp1QYCixTlNEWOcNNmdIwqvKWZzdOwmRz+AMZIfHdtVkBSKx5hu9ofXeiw=="],
 
     "@owlmeans/test": ["@owlmeans/test@0.1.18-rc.33", "", { "dependencies": { "@owlmeans/context": "^0.1.18-rc.32" } }, "sha512-Qjd9VANrrKqVm9gvyhih7Vg/noiPa+LMayiVe4U6JtDcpV7tJQcSJc76Jj3EUgytJCRWliBNeKLoVU/DU9VZhg=="],
 
-    "@owlmeans/test-auth": ["@owlmeans/test-auth@0.1.18-rc.43", "", { "dependencies": { "@owlmeans/auth": "^0.1.18-rc.38", "@owlmeans/auth-common": "^0.1.18-rc.44", "@owlmeans/basic-envelope": "^0.1.18-rc.43", "@owlmeans/basic-keys": "^0.1.18-rc.45", "@owlmeans/context": "^0.1.18-rc.32", "@owlmeans/entrypoint": "^0.1.18-rc.39", "@owlmeans/resource": "^0.1.18-rc.37", "@owlmeans/test": "^0.1.18-rc.33" } }, "sha512-LjlyV6H+xGjK5vIeb9+87UdZWwLndat2ZAZqLkbIqvZmiDrMFbbDuydoTYgAa/KMwoO7nypvvng6sG9yNu9fOA=="],
+    "@owlmeans/test-auth": ["@owlmeans/test-auth@0.1.18-rc.44", "", { "dependencies": { "@owlmeans/auth": "^0.1.18-rc.38", "@owlmeans/auth-common": "^0.1.18-rc.45", "@owlmeans/basic-envelope": "^0.1.18-rc.44", "@owlmeans/basic-keys": "^0.1.18-rc.46", "@owlmeans/context": "^0.1.18-rc.32", "@owlmeans/entrypoint": "^0.1.18-rc.39", "@owlmeans/resource": "^0.1.18-rc.38", "@owlmeans/test": "^0.1.18-rc.33" } }, "sha512-cAFJdQBCWkSoKMGBHDMx6FL7Eo2ZuNWajWW9pFuhRUgA5qPUzm9QEp8HL9xnEP/tO19NRkBzmL8JeE/dLHCcYA=="],
 
-    "@owlmeans/test-ui": ["@owlmeans/test-ui@0.1.18-rc.46", "", { "dependencies": { "@owlmeans/auth": "^0.1.18-rc.38", "@owlmeans/basic-envelope": "^0.1.18-rc.43", "@owlmeans/basic-ids": "^0.1.18-rc.34", "@owlmeans/basic-keys": "^0.1.18-rc.45", "@owlmeans/test": "^0.1.18-rc.33", "@owlmeans/test-auth": "^0.1.18-rc.43", "playwright": "^1.61.1" }, "peerDependencies": { "react": "*", "react-dom": "*" }, "optionalPeers": ["react", "react-dom"] }, "sha512-tbY9mAWwVqf2oCQZpNftfPiKl3mNx/g7QgxvxMzgUsn6MLTL5NmuNdykjAEQQdQ6wFCbD/9NmDDgjHE8DSAXVQ=="],
+    "@owlmeans/test-ui": ["@owlmeans/test-ui@0.1.18-rc.47", "", { "dependencies": { "@owlmeans/auth": "^0.1.18-rc.38", "@owlmeans/basic-envelope": "^0.1.18-rc.44", "@owlmeans/basic-ids": "^0.1.18-rc.35", "@owlmeans/basic-keys": "^0.1.18-rc.46", "@owlmeans/test": "^0.1.18-rc.33", "@owlmeans/test-auth": "^0.1.18-rc.44", "playwright": "^1.61.1" }, "peerDependencies": { "react": "*", "react-dom": "*" }, "optionalPeers": ["react", "react-dom"] }, "sha512-yVpBty1XowbIT9EVaFyRUsV2ulC5ZAUHGTbtHnFaaHmfqQ/QVaB+CAQLBJ6/A8bA3m/Zjf3zkPnb7vk5G6p1Ag=="],
 
     "@owlmeans/web-flow": ["@owlmeans/web-flow@workspace:libraries/common/packages/web-flow"],
 
