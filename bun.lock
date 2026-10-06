@@ -10,36 +10,36 @@
     },
     "libraries/common/packages/api": {
       "name": "@owlmeans/api",
-      "version": "0.1.18-rc.45",
+      "version": "0.1.18-rc.47",
       "dependencies": {
-        "@owlmeans/auth-common": "^0.1.18-rc.45",
-        "@owlmeans/client-config": "^0.1.18-rc.42",
-        "@owlmeans/client-route": "^0.1.18-rc.46",
-        "@owlmeans/config": "^0.1.18-rc.42",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/entrypoint": "^0.1.18-rc.39",
-        "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/log": "^0.1.18-rc.0",
-        "@owlmeans/route": "^0.1.18-rc.33",
-        "axios": "^1.7.7",
-        "qs": "^6.13.0",
+        "@owlmeans/auth-common": "^0.1.18-rc.47",
+        "@owlmeans/client-config": "^0.1.18-rc.44",
+        "@owlmeans/client-route": "^0.1.18-rc.48",
+        "@owlmeans/config": "^0.1.18-rc.44",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/entrypoint": "^0.1.18-rc.41",
+        "@owlmeans/error": "^0.1.18-rc.38",
+        "@owlmeans/log": "^0.1.18-rc.2",
+        "@owlmeans/route": "^0.1.18-rc.35",
+        "axios": "^1.20.0",
+        "qs": "^6.16.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/resource": "^0.1.18-rc.38",
-        "@types/qs": "^6.9.16",
+        "@owlmeans/resource": "^0.1.18-rc.40",
+        "@types/qs": "^6.15.1",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
     },
     "libraries/common/packages/api-config": {
       "name": "@owlmeans/api-config",
-      "version": "0.1.18-rc.41",
+      "version": "0.1.18-rc.43",
       "dependencies": {
-        "@owlmeans/config": "^0.1.18-rc.42",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/entrypoint": "^0.1.18-rc.39",
-        "@owlmeans/route": "^0.1.18-rc.33",
+        "@owlmeans/config": "^0.1.18-rc.44",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/entrypoint": "^0.1.18-rc.41",
+        "@owlmeans/route": "^0.1.18-rc.35",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -49,13 +49,13 @@
     },
     "libraries/common/packages/api-config-client": {
       "name": "@owlmeans/api-config-client",
-      "version": "0.1.18-rc.43",
+      "version": "0.1.18-rc.45",
       "dependencies": {
-        "@owlmeans/api-config": "^0.1.18-rc.41",
-        "@owlmeans/client-context": "^0.1.18-rc.46",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/log": "^0.1.18-rc.0",
+        "@owlmeans/api-config": "^0.1.18-rc.43",
+        "@owlmeans/client-context": "^0.1.18-rc.48",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.47",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/log": "^0.1.18-rc.2",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -65,14 +65,14 @@
     },
     "libraries/common/packages/auth": {
       "name": "@owlmeans/auth",
-      "version": "0.1.18-rc.38",
+      "version": "0.1.18-rc.40",
       "dependencies": {
-        "@owlmeans/error": "^0.1.18-rc.36",
+        "@owlmeans/error": "^0.1.18-rc.38",
         "ajv-formats": "^3.0.1",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@types/bun": "^1.4.0",
+        "@types/bun": "^1.4.2",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
@@ -82,107 +82,106 @@
     },
     "libraries/common/packages/auth-common": {
       "name": "@owlmeans/auth-common",
-      "version": "0.1.18-rc.45",
+      "version": "0.1.18-rc.47",
       "dependencies": {
-        "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/auth-common": "^0.1.18-rc.45",
-        "@owlmeans/basic-ids": "^0.1.18-rc.35",
-        "@owlmeans/basic-keys": "^0.1.18-rc.46",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/entrypoint": "^0.1.18-rc.39",
-        "@owlmeans/resource": "^0.1.18-rc.38",
-        "@owlmeans/route": "^0.1.18-rc.33",
+        "@owlmeans/auth": "^0.1.18-rc.40",
+        "@owlmeans/auth-common": "^0.1.18-rc.47",
+        "@owlmeans/basic-ids": "^0.1.18-rc.37",
+        "@owlmeans/basic-keys": "^0.1.18-rc.48",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.47",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/entrypoint": "^0.1.18-rc.41",
+        "@owlmeans/resource": "^0.1.18-rc.40",
+        "@owlmeans/route": "^0.1.18-rc.35",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/test-auth": "^0.1.18-rc.44",
-        "@types/bun": "^1.4.0",
+        "@owlmeans/test-auth": "^0.1.18-rc.46",
+        "@types/bun": "^1.4.2",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
     },
     "libraries/common/packages/basic-envelope": {
       "name": "@owlmeans/basic-envelope",
-      "version": "0.1.18-rc.44",
+      "version": "0.1.18-rc.46",
       "dependencies": {
-        "@noble/curves": "^1.6.0",
-        "@noble/hashes": "^1.5.0",
-        "@owlmeans/basic-keys": "^0.1.18-rc.46",
-        "@scure/base": "^2.3.0",
+        "@noble/curves": "^2.4.0",
+        "@noble/hashes": "^2.4.0",
+        "@owlmeans/basic-keys": "^0.1.18-rc.48",
+        "@scure/base": "^2.4.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/test-auth": "^0.1.18-rc.44",
-        "@types/bun": "^1.4.0",
+        "@owlmeans/test-auth": "^0.1.18-rc.46",
+        "@types/bun": "^1.4.2",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
     },
     "libraries/common/packages/basic-ids": {
       "name": "@owlmeans/basic-ids",
-      "version": "0.1.18-rc.35",
+      "version": "0.1.18-rc.37",
       "dependencies": {
-        "@noble/hashes": "^1.5.0",
-        "@scure/base": "^2.3.0",
-        "uuid": "^14.0.1",
+        "@noble/hashes": "^2.4.0",
+        "@scure/base": "^2.4.0",
+        "uuid": "^14.0.2",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@types/uuid": "^11.0.0",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
     },
     "libraries/common/packages/basic-keys": {
       "name": "@owlmeans/basic-keys",
-      "version": "0.1.18-rc.46",
+      "version": "0.1.18-rc.48",
       "bin": {
         "owlkeys": "build/bin.js",
       },
       "dependencies": {
-        "@noble/ciphers": "^1.2.1",
-        "@noble/curves": "^1.6.0",
-        "@noble/hashes": "^1.5.0",
-        "@owlmeans/auth": "^0.1.18-rc.38",
-        "@scure/base": "^2.3.0",
-        "canonicalize": "^2.0.0",
+        "@noble/ciphers": "^2.4.0",
+        "@noble/curves": "^2.4.0",
+        "@noble/hashes": "^2.4.0",
+        "@owlmeans/auth": "^0.1.18-rc.40",
+        "@scure/base": "^2.4.0",
+        "canonicalize": "^5.1.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/test-auth": "^0.1.18-rc.44",
-        "@types/bun": "^1.4.0",
+        "@owlmeans/test-auth": "^0.1.18-rc.46",
+        "@types/bun": "^1.4.2",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
     },
     "libraries/common/packages/client": {
       "name": "@owlmeans/client",
-      "version": "0.1.18-rc.49",
+      "version": "0.1.18-rc.51",
       "dependencies": {
-        "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/client-context": "^0.1.18-rc.46",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
-        "@owlmeans/client-resource": "^0.1.18-rc.45",
-        "@owlmeans/config": "^0.1.18-rc.42",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/entrypoint": "^0.1.18-rc.39",
-        "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/resource": "^0.1.18-rc.38",
-        "@owlmeans/router": "^0.1.18-rc.31",
-        "@owlmeans/state": "^0.1.18-rc.37",
+        "@owlmeans/auth": "^0.1.18-rc.40",
+        "@owlmeans/client-context": "^0.1.18-rc.48",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.47",
+        "@owlmeans/client-resource": "^0.1.18-rc.47",
+        "@owlmeans/config": "^0.1.18-rc.44",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/entrypoint": "^0.1.18-rc.41",
+        "@owlmeans/error": "^0.1.18-rc.38",
+        "@owlmeans/resource": "^0.1.18-rc.40",
+        "@owlmeans/router": "^0.1.18-rc.33",
+        "@owlmeans/state": "^0.1.18-rc.39",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/test-ui": "^0.1.18-rc.47",
-        "@types/react": "^19.2.17",
-        "@vitejs/plugin-react": "^6.0.3",
+        "@owlmeans/test-ui": "^0.1.18-rc.49",
+        "@types/react": "^19.3.0",
+        "@vitejs/plugin-react": "^6.1.1",
         "nodemon": "^3.1.14",
-        "playwright": "^1.61.1",
-        "react": "^19.2.7",
-        "react-dom": "^19.2.7",
+        "playwright": "^1.63.0",
+        "react": "^19.3.0",
+        "react-dom": "^19.3.0",
         "typescript": "^7.0.2",
-        "vite": "^8.1.2",
+        "vite": "^8.3.2",
       },
       "peerDependencies": {
         "@remix-run/router": "*",
@@ -194,36 +193,36 @@
     },
     "libraries/common/packages/client-auth": {
       "name": "@owlmeans/client-auth",
-      "version": "0.1.18-rc.56",
+      "version": "0.1.18-rc.58",
       "dependencies": {
-        "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/auth-common": "^0.1.18-rc.45",
-        "@owlmeans/basic-envelope": "^0.1.18-rc.44",
-        "@owlmeans/basic-keys": "^0.1.18-rc.46",
-        "@owlmeans/client": "^0.1.18-rc.49",
-        "@owlmeans/client-context": "^0.1.18-rc.46",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
-        "@owlmeans/client-flow": "^0.1.18-rc.52",
-        "@owlmeans/client-resource": "^0.1.18-rc.45",
-        "@owlmeans/client-socket": "^0.1.18-rc.47",
-        "@owlmeans/config": "^0.1.18-rc.42",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/did": "^0.1.18-rc.44",
-        "@owlmeans/entrypoint": "^0.1.18-rc.39",
-        "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/flow": "^0.1.18-rc.43",
-        "@owlmeans/i18n": "^0.1.18-rc.37",
-        "@owlmeans/log": "^0.1.18-rc.0",
-        "@owlmeans/resource": "^0.1.18-rc.38",
-        "@owlmeans/socket": "^0.1.18-rc.38",
-        "@owlmeans/web-flow": "^0.1.18-rc.51",
-        "@scure/base": "^2.3.0",
+        "@owlmeans/auth": "^0.1.18-rc.40",
+        "@owlmeans/auth-common": "^0.1.18-rc.47",
+        "@owlmeans/basic-envelope": "^0.1.18-rc.46",
+        "@owlmeans/basic-keys": "^0.1.18-rc.48",
+        "@owlmeans/client": "^0.1.18-rc.51",
+        "@owlmeans/client-context": "^0.1.18-rc.48",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.47",
+        "@owlmeans/client-flow": "^0.1.18-rc.54",
+        "@owlmeans/client-resource": "^0.1.18-rc.47",
+        "@owlmeans/client-socket": "^0.1.18-rc.49",
+        "@owlmeans/config": "^0.1.18-rc.44",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/did": "^0.1.18-rc.46",
+        "@owlmeans/entrypoint": "^0.1.18-rc.41",
+        "@owlmeans/error": "^0.1.18-rc.38",
+        "@owlmeans/flow": "^0.1.18-rc.45",
+        "@owlmeans/i18n": "^0.1.18-rc.39",
+        "@owlmeans/log": "^0.1.18-rc.2",
+        "@owlmeans/resource": "^0.1.18-rc.40",
+        "@owlmeans/socket": "^0.1.18-rc.40",
+        "@owlmeans/web-flow": "^0.1.18-rc.53",
+        "@scure/base": "^2.4.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/test-auth": "^0.1.18-rc.44",
-        "@types/bun": "^1.4.0",
-        "@types/react": "^19.2.17",
+        "@owlmeans/test-auth": "^0.1.18-rc.46",
+        "@types/bun": "^1.4.2",
+        "@types/react": "^19.3.0",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
@@ -234,9 +233,9 @@
     },
     "libraries/common/packages/client-config": {
       "name": "@owlmeans/client-config",
-      "version": "0.1.18-rc.42",
+      "version": "0.1.18-rc.44",
       "dependencies": {
-        "@owlmeans/config": "^0.1.18-rc.42",
+        "@owlmeans/config": "^0.1.18-rc.44",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -246,15 +245,15 @@
     },
     "libraries/common/packages/client-context": {
       "name": "@owlmeans/client-context",
-      "version": "0.1.18-rc.46",
+      "version": "0.1.18-rc.48",
       "dependencies": {
-        "@owlmeans/api": "^0.1.18-rc.45",
-        "@owlmeans/client-config": "^0.1.18-rc.42",
-        "@owlmeans/config": "^0.1.18-rc.42",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/i18n": "^0.1.18-rc.37",
-        "@owlmeans/log": "^0.1.18-rc.0",
-        "@owlmeans/route": "^0.1.18-rc.33",
+        "@owlmeans/api": "^0.1.18-rc.47",
+        "@owlmeans/client-config": "^0.1.18-rc.44",
+        "@owlmeans/config": "^0.1.18-rc.44",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/i18n": "^0.1.18-rc.39",
+        "@owlmeans/log": "^0.1.18-rc.2",
+        "@owlmeans/route": "^0.1.18-rc.35",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -264,25 +263,25 @@
     },
     "libraries/common/packages/client-flow": {
       "name": "@owlmeans/client-flow",
-      "version": "0.1.18-rc.52",
+      "version": "0.1.18-rc.54",
       "dependencies": {
-        "@owlmeans/auth-common": "^0.1.18-rc.45",
-        "@owlmeans/client": "^0.1.18-rc.49",
-        "@owlmeans/client-context": "^0.1.18-rc.46",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
-        "@owlmeans/client-resource": "^0.1.18-rc.45",
-        "@owlmeans/config": "^0.1.18-rc.42",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/entrypoint": "^0.1.18-rc.39",
-        "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/flow": "^0.1.18-rc.43",
-        "@owlmeans/resource": "^0.1.18-rc.38",
-        "@owlmeans/route": "^0.1.18-rc.33",
+        "@owlmeans/auth-common": "^0.1.18-rc.47",
+        "@owlmeans/client": "^0.1.18-rc.51",
+        "@owlmeans/client-context": "^0.1.18-rc.48",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.47",
+        "@owlmeans/client-resource": "^0.1.18-rc.47",
+        "@owlmeans/config": "^0.1.18-rc.44",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/entrypoint": "^0.1.18-rc.41",
+        "@owlmeans/error": "^0.1.18-rc.38",
+        "@owlmeans/flow": "^0.1.18-rc.45",
+        "@owlmeans/resource": "^0.1.18-rc.40",
+        "@owlmeans/route": "^0.1.18-rc.35",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@owlmeans/static-resource": "^0.1.18-rc.37",
-        "@types/bun": "^1.4.0",
+        "@owlmeans/static-resource": "^0.1.18-rc.39",
+        "@types/bun": "^1.4.2",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
@@ -292,18 +291,18 @@
     },
     "libraries/common/packages/client-i18n": {
       "name": "@owlmeans/client-i18n",
-      "version": "0.1.18-rc.48",
+      "version": "0.1.18-rc.50",
       "dependencies": {
-        "@owlmeans/client": "^0.1.18-rc.49",
-        "@owlmeans/client-context": "^0.1.18-rc.46",
-        "@owlmeans/i18n": "^0.1.18-rc.37",
-        "@owlmeans/log": "^0.1.18-rc.0",
-        "i18next": "^26.2.0",
-        "react-i18next": "^17.0.11",
+        "@owlmeans/client": "^0.1.18-rc.51",
+        "@owlmeans/client-context": "^0.1.18-rc.48",
+        "@owlmeans/i18n": "^0.1.18-rc.39",
+        "@owlmeans/log": "^0.1.18-rc.2",
+        "i18next": "^26.4.2",
+        "react-i18next": "^17.0.15",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@types/react": "^19.2.17",
+        "@types/react": "^19.3.0",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
@@ -313,31 +312,31 @@
     },
     "libraries/common/packages/client-panel": {
       "name": "@owlmeans/client-panel",
-      "version": "0.1.18-rc.56",
+      "version": "0.1.18-rc.58",
       "dependencies": {
-        "@hookform/resolvers": "^5.2.2",
-        "@owlmeans/client": "^0.1.18-rc.49",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
-        "@owlmeans/client-i18n": "^0.1.18-rc.48",
-        "@owlmeans/client-route": "^0.1.18-rc.46",
-        "@owlmeans/entrypoint": "^0.1.18-rc.39",
-        "@owlmeans/error": "^0.1.18-rc.36",
+        "@hookform/resolvers": "^5.9.1",
+        "@owlmeans/client": "^0.1.18-rc.51",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.47",
+        "@owlmeans/client-i18n": "^0.1.18-rc.50",
+        "@owlmeans/client-route": "^0.1.18-rc.48",
+        "@owlmeans/entrypoint": "^0.1.18-rc.41",
+        "@owlmeans/error": "^0.1.18-rc.38",
       },
       "devDependencies": {
-        "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/client-auth": "^0.1.18-rc.56",
+        "@owlmeans/auth": "^0.1.18-rc.40",
+        "@owlmeans/client-auth": "^0.1.18-rc.58",
         "@owlmeans/dep-config": "workspace:*",
-        "@types/react": "^19.2.17",
+        "@types/react": "^19.3.0",
         "nodemon": "^3.1.14",
-        "react-hook-form": "^7.53.0",
+        "react-hook-form": "^7.89.0",
         "typescript": "^7.0.2",
       },
       "peerDependencies": {
-        "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/client-auth": "^0.1.18-rc.56",
-        "@owlmeans/config": "^0.1.18-rc.42",
-        "@owlmeans/i18n": "^0.1.18-rc.37",
-        "@owlmeans/router": "^0.1.18-rc.31",
+        "@owlmeans/auth": "^0.1.18-rc.40",
+        "@owlmeans/client-auth": "^0.1.18-rc.58",
+        "@owlmeans/config": "^0.1.18-rc.44",
+        "@owlmeans/i18n": "^0.1.18-rc.39",
+        "@owlmeans/router": "^0.1.18-rc.33",
         "ajv": "*",
         "react": "*",
         "react-hook-form": "*",
@@ -349,13 +348,13 @@
     },
     "libraries/common/packages/client-resource": {
       "name": "@owlmeans/client-resource",
-      "version": "0.1.18-rc.45",
+      "version": "0.1.18-rc.47",
       "dependencies": {
-        "@noble/hashes": "^1.5.0",
-        "@owlmeans/client-context": "^0.1.18-rc.46",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/resource": "^0.1.18-rc.38",
-        "@scure/base": "^2.3.0",
+        "@noble/hashes": "^2.4.0",
+        "@owlmeans/client-context": "^0.1.18-rc.48",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/resource": "^0.1.18-rc.40",
+        "@scure/base": "^2.4.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -365,10 +364,10 @@
     },
     "libraries/common/packages/client-route": {
       "name": "@owlmeans/client-route",
-      "version": "0.1.18-rc.46",
+      "version": "0.1.18-rc.48",
       "dependencies": {
-        "@owlmeans/client-context": "^0.1.18-rc.46",
-        "@owlmeans/route": "^0.1.18-rc.33",
+        "@owlmeans/client-context": "^0.1.18-rc.48",
+        "@owlmeans/route": "^0.1.18-rc.35",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -378,23 +377,23 @@
     },
     "libraries/common/packages/client-socket": {
       "name": "@owlmeans/client-socket",
-      "version": "0.1.18-rc.47",
+      "version": "0.1.18-rc.49",
       "dependencies": {
-        "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/basic-envelope": "^0.1.18-rc.44",
-        "@owlmeans/basic-ids": "^0.1.18-rc.35",
-        "@owlmeans/client": "^0.1.18-rc.49",
-        "@owlmeans/client-context": "^0.1.18-rc.46",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/entrypoint": "^0.1.18-rc.39",
-        "@owlmeans/log": "^0.1.18-rc.0",
-        "@owlmeans/socket": "^0.1.18-rc.38",
+        "@owlmeans/auth": "^0.1.18-rc.40",
+        "@owlmeans/basic-envelope": "^0.1.18-rc.46",
+        "@owlmeans/basic-ids": "^0.1.18-rc.37",
+        "@owlmeans/client": "^0.1.18-rc.51",
+        "@owlmeans/client-context": "^0.1.18-rc.48",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.47",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/entrypoint": "^0.1.18-rc.41",
+        "@owlmeans/log": "^0.1.18-rc.2",
+        "@owlmeans/socket": "^0.1.18-rc.40",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@types/bun": "^1.4.0",
-        "@types/react": "^19.2.17",
+        "@types/bun": "^1.4.2",
+        "@types/react": "^19.3.0",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
@@ -404,13 +403,13 @@
     },
     "libraries/common/packages/config": {
       "name": "@owlmeans/config",
-      "version": "0.1.18-rc.42",
+      "version": "0.1.18-rc.44",
       "dependencies": {
-        "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/resource": "^0.1.18-rc.38",
-        "@owlmeans/route": "^0.1.18-rc.33",
+        "@owlmeans/auth": "^0.1.18-rc.40",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/error": "^0.1.18-rc.38",
+        "@owlmeans/resource": "^0.1.18-rc.40",
+        "@owlmeans/route": "^0.1.18-rc.35",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -420,7 +419,7 @@
     },
     "libraries/common/packages/context": {
       "name": "@owlmeans/context",
-      "version": "0.1.18-rc.32",
+      "version": "0.1.18-rc.34",
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
         "nodemon": "^3.1.14",
@@ -436,17 +435,17 @@
     },
     "libraries/common/packages/did": {
       "name": "@owlmeans/did",
-      "version": "0.1.18-rc.44",
+      "version": "0.1.18-rc.46",
       "dependencies": {
-        "@noble/curves": "^1.6.0",
-        "@noble/hashes": "^1.5.0",
-        "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/basic-keys": "^0.1.18-rc.46",
-        "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/i18n": "^0.1.18-rc.37",
-        "@owlmeans/resource": "^0.1.18-rc.38",
-        "@scure/base": "^2.3.0",
-        "@scure/bip39": "^1.4.0",
+        "@noble/curves": "^2.4.0",
+        "@noble/hashes": "^2.4.0",
+        "@owlmeans/auth": "^0.1.18-rc.40",
+        "@owlmeans/basic-keys": "^0.1.18-rc.48",
+        "@owlmeans/error": "^0.1.18-rc.38",
+        "@owlmeans/i18n": "^0.1.18-rc.39",
+        "@owlmeans/resource": "^0.1.18-rc.40",
+        "@scure/base": "^2.4.0",
+        "@scure/bip39": "^2.4.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -456,9 +455,9 @@
     },
     "libraries/common/packages/error": {
       "name": "@owlmeans/error",
-      "version": "0.1.18-rc.36",
+      "version": "0.1.18-rc.38",
       "dependencies": {
-        "@owlmeans/i18n": "^0.1.18-rc.37",
+        "@owlmeans/i18n": "^0.1.18-rc.39",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -468,14 +467,14 @@
     },
     "libraries/common/packages/flow": {
       "name": "@owlmeans/flow",
-      "version": "0.1.18-rc.43",
+      "version": "0.1.18-rc.45",
       "dependencies": {
-        "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/config": "^0.1.18-rc.42",
-        "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/i18n": "^0.1.18-rc.37",
-        "@owlmeans/resource": "^0.1.18-rc.38",
-        "@scure/base": "^2.3.0",
+        "@owlmeans/auth": "^0.1.18-rc.40",
+        "@owlmeans/config": "^0.1.18-rc.44",
+        "@owlmeans/error": "^0.1.18-rc.38",
+        "@owlmeans/i18n": "^0.1.18-rc.39",
+        "@owlmeans/resource": "^0.1.18-rc.40",
+        "@scure/base": "^2.4.0",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -485,7 +484,7 @@
     },
     "libraries/common/packages/i18n": {
       "name": "@owlmeans/i18n",
-      "version": "0.1.18-rc.37",
+      "version": "0.1.18-rc.39",
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
         "nodemon": "^3.1.14",
@@ -494,14 +493,14 @@
     },
     "libraries/common/packages/resource": {
       "name": "@owlmeans/resource",
-      "version": "0.1.18-rc.38",
+      "version": "0.1.18-rc.40",
       "dependencies": {
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/error": "^0.1.18-rc.36",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/error": "^0.1.18-rc.38",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@types/bun": "^1.4.0",
+        "@types/bun": "^1.4.2",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
@@ -511,9 +510,9 @@
     },
     "libraries/common/packages/route": {
       "name": "@owlmeans/route",
-      "version": "0.1.18-rc.33",
+      "version": "0.1.18-rc.35",
       "dependencies": {
-        "@owlmeans/context": "^0.1.18-rc.32",
+        "@owlmeans/context": "^0.1.18-rc.34",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -523,14 +522,14 @@
     },
     "libraries/common/packages/router": {
       "name": "@owlmeans/router",
-      "version": "0.1.18-rc.31",
+      "version": "0.1.18-rc.33",
       "dependencies": {
-        "@owlmeans/context": "^0.1.18-rc.32",
+        "@owlmeans/context": "^0.1.18-rc.34",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
-        "@types/node": "^26.1.0",
-        "@types/react": "^19.2.17",
+        "@types/node": "^26.6.4",
+        "@types/react": "^19.3.0",
         "nodemon": "^3.1.14",
         "typescript": "^7.0.2",
       },
@@ -540,12 +539,12 @@
     },
     "libraries/common/packages/socket": {
       "name": "@owlmeans/socket",
-      "version": "0.1.18-rc.38",
+      "version": "0.1.18-rc.40",
       "dependencies": {
-        "@owlmeans/auth": "^0.1.18-rc.38",
-        "@owlmeans/basic-ids": "^0.1.18-rc.35",
-        "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/log": "^0.1.18-rc.0",
+        "@owlmeans/auth": "^0.1.18-rc.40",
+        "@owlmeans/basic-ids": "^0.1.18-rc.37",
+        "@owlmeans/error": "^0.1.18-rc.38",
+        "@owlmeans/log": "^0.1.18-rc.2",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -555,10 +554,10 @@
     },
     "libraries/common/packages/state": {
       "name": "@owlmeans/state",
-      "version": "0.1.18-rc.37",
+      "version": "0.1.18-rc.39",
       "dependencies": {
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/resource": "^0.1.18-rc.38",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/resource": "^0.1.18-rc.40",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -568,16 +567,16 @@
     },
     "libraries/common/packages/web-flow": {
       "name": "@owlmeans/web-flow",
-      "version": "0.1.18-rc.51",
+      "version": "0.1.18-rc.53",
       "dependencies": {
-        "@owlmeans/client": "^0.1.18-rc.49",
-        "@owlmeans/client-context": "^0.1.18-rc.46",
-        "@owlmeans/client-entrypoint": "^0.1.18-rc.45",
-        "@owlmeans/client-flow": "^0.1.18-rc.52",
-        "@owlmeans/client-resource": "^0.1.18-rc.45",
-        "@owlmeans/context": "^0.1.18-rc.32",
-        "@owlmeans/error": "^0.1.18-rc.36",
-        "@owlmeans/flow": "^0.1.18-rc.43",
+        "@owlmeans/client": "^0.1.18-rc.51",
+        "@owlmeans/client-context": "^0.1.18-rc.48",
+        "@owlmeans/client-entrypoint": "^0.1.18-rc.47",
+        "@owlmeans/client-flow": "^0.1.18-rc.54",
+        "@owlmeans/client-resource": "^0.1.18-rc.47",
+        "@owlmeans/context": "^0.1.18-rc.34",
+        "@owlmeans/error": "^0.1.18-rc.38",
+        "@owlmeans/flow": "^0.1.18-rc.45",
       },
       "devDependencies": {
         "@owlmeans/dep-config": "workspace:*",
@@ -889,11 +888,11 @@
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw=="],
 
-    "@noble/ciphers": ["@noble/ciphers@1.3.0", "", {}, "sha512-2I0gnIVPtfnMw9ee9h1dJG7tp81+8Ob3OJb3Mv37rx5L40/b0i7djjCVvGOVqc9AEIQyvyu1i6ypKdFw8R8gQw=="],
+    "@noble/ciphers": ["@noble/ciphers@2.4.0", "", {}, "sha512-AnjFn0Jv92laAkvMrghlFZq4qQCIN/4DxFV/eooqtC2YTjB7kBeLMS2T9KJX4Dn+ZVXLOwK0lSgqDtx9gvxtiw=="],
 
-    "@noble/curves": ["@noble/curves@1.9.7", "", { "dependencies": { "@noble/hashes": "1.8.0" } }, "sha512-gbKGcRUYIjA3/zCCNaWDciTMFI0dCkvou3TL8Zmy5Nc7sJ47a0jtOeZoTaMxkuqRo9cRhjOdZJXegxYE5FN/xw=="],
+    "@noble/curves": ["@noble/curves@2.4.0", "", { "dependencies": { "@noble/hashes": "2.4.0" } }, "sha512-P4/62zrgfH33CneE3Dn4WhJVA22YUU0eR51wKIan4NVRvwsA0YnPTwWGpNbpuacSujmSFLvyzpyuR30+fbq2Ew=="],
 
-    "@noble/hashes": ["@noble/hashes@1.8.0", "", {}, "sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A=="],
+    "@noble/hashes": ["@noble/hashes@2.4.0", "", {}, "sha512-X5XaVWZIBCT7HHZGm5I7ZQXDwLG+bGXuSrMQAW+7Zvl87h1kmc1ZB1VSRJcpUfoUrGQp4Fkoxm5kZ+Ms+aW+eA=="],
 
     "@nodelib/fs.scandir": ["@nodelib/fs.scandir@2.1.5", "", { "dependencies": { "@nodelib/fs.stat": "2.0.5", "run-parallel": "^1.1.9" } }, "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="],
 
@@ -925,7 +924,7 @@
 
     "@owlmeans/client-context": ["@owlmeans/client-context@workspace:libraries/common/packages/client-context"],
 
-    "@owlmeans/client-entrypoint": ["@owlmeans/client-entrypoint@0.1.18-rc.45", "", { "dependencies": { "@owlmeans/api": "^0.1.18-rc.45", "@owlmeans/client-config": "^0.1.18-rc.42", "@owlmeans/client-context": "^0.1.18-rc.46", "@owlmeans/client-route": "^0.1.18-rc.46", "@owlmeans/config": "^0.1.18-rc.42", "@owlmeans/context": "^0.1.18-rc.32", "@owlmeans/entrypoint": "^0.1.18-rc.39", "@owlmeans/error": "^0.1.18-rc.36", "@owlmeans/log": "^0.1.18-rc.0", "@owlmeans/route": "^0.1.18-rc.33", "ajv-formats": "^3.0.1", "qs": "^6.13.0" }, "peerDependencies": { "ajv": "*" } }, "sha512-0yKG23yPxUKtQcQOHLSLNjrznrOByKT55xeBdnCBlV5xs5WRTC09XiebzvVgSBAjnxCBw474GWqSKogJbe+hmA=="],
+    "@owlmeans/client-entrypoint": ["@owlmeans/client-entrypoint@0.1.18-rc.47", "", { "dependencies": { "@owlmeans/api": "^0.1.18-rc.47", "@owlmeans/client-config": "^0.1.18-rc.44", "@owlmeans/client-context": "^0.1.18-rc.48", "@owlmeans/client-route": "^0.1.18-rc.48", "@owlmeans/config": "^0.1.18-rc.44", "@owlmeans/context": "^0.1.18-rc.34", "@owlmeans/entrypoint": "^0.1.18-rc.41", "@owlmeans/error": "^0.1.18-rc.38", "@owlmeans/log": "^0.1.18-rc.2", "@owlmeans/route": "^0.1.18-rc.35", "ajv-formats": "^3.0.1", "qs": "^6.16.0" }, "peerDependencies": { "ajv": "*" } }, "sha512-8jrEFyQBySpLBDIpNDZy5HUVI1pgPr3zoz82mtFnMLfqpZYrVeg9CD5NWNQ5nlUH/3It/mLCRYkZ2vlB/3eteg=="],
 
     "@owlmeans/client-flow": ["@owlmeans/client-flow@workspace:libraries/common/packages/client-flow"],
 
@@ -949,7 +948,7 @@
 
     "@owlmeans/did": ["@owlmeans/did@workspace:libraries/common/packages/did"],
 
-    "@owlmeans/entrypoint": ["@owlmeans/entrypoint@0.1.18-rc.39", "", { "dependencies": { "@owlmeans/auth": "^0.1.18-rc.38", "@owlmeans/context": "^0.1.18-rc.32", "@owlmeans/route": "^0.1.18-rc.33", "ajv": "^8.17.1" } }, "sha512-SMCHFHEBsfA1WGACWrYPt/wqmaubuhTW12pO4lFnnVtAzBbrOWg6T+xyR7KB6lVJ+fsZUR2NzqnqNu/HsC5qxQ=="],
+    "@owlmeans/entrypoint": ["@owlmeans/entrypoint@0.1.18-rc.41", "", { "dependencies": { "@owlmeans/auth": "^0.1.18-rc.40", "@owlmeans/context": "^0.1.18-rc.34", "@owlmeans/route": "^0.1.18-rc.35", "ajv": "^8.20.0" } }, "sha512-0I2dnLcoSdaKMNHFZye6QZaZBI1JVfRNkiLNWewDa5CXamrI6xyhDSJfRjc2imjAI/hC7FP28D6MjLCzZAWXCg=="],
 
     "@owlmeans/error": ["@owlmeans/error@workspace:libraries/common/packages/error"],
 
@@ -957,7 +956,7 @@
 
     "@owlmeans/i18n": ["@owlmeans/i18n@workspace:libraries/common/packages/i18n"],
 
-    "@owlmeans/log": ["@owlmeans/log@0.1.18-rc.0", "", { "dependencies": { "@owlmeans/context": "^0.1.18-rc.32" } }, "sha512-EAVh5iWRcaistZIjp9vUdtgzfVhZz64Y+KJLhh2/l/iDG+x53CHvHbtwWo5zvTYjeiRORSzz6lrBUmsaJP7gkA=="],
+    "@owlmeans/log": ["@owlmeans/log@0.1.18-rc.2", "", { "dependencies": { "@owlmeans/context": "^0.1.18-rc.34" } }, "sha512-Ay6JFbTlMPGbql332jfZbHIkuQLOwqG+s5F4gejKxqxnDO+wzd3FxCI0htb84N1VUJ5TIqCnDzaaI4taKdid0g=="],
 
     "@owlmeans/module": ["@owlmeans/module@0.1.11", "", { "dependencies": { "@owlmeans/entrypoint": "^0.1.11" } }, "sha512-PdpeOvJJvFoz8Rz1Kg+L+jAJBkS2Yuq5t2kdBQzCP7PIaEYYOYu/zlmJzD5eaHeTIpKkZuo/Q6FxNBzbCpBNJg=="],
 
@@ -979,17 +978,17 @@
 
     "@owlmeans/state": ["@owlmeans/state@workspace:libraries/common/packages/state"],
 
-    "@owlmeans/static-resource": ["@owlmeans/static-resource@0.1.18-rc.37", "", { "dependencies": { "@owlmeans/context": "^0.1.18-rc.32", "@owlmeans/error": "^0.1.18-rc.36", "@owlmeans/resource": "^0.1.18-rc.38" } }, "sha512-42vFJCfGUla2D9FGfwUmmrKoXGi6xp1QYCixTlNEWOcNNmdIwqvKWZzdOwmRz+AMZIfHdtVkBSKx5hu9ofXeiw=="],
+    "@owlmeans/static-resource": ["@owlmeans/static-resource@0.1.18-rc.39", "", { "dependencies": { "@owlmeans/context": "^0.1.18-rc.34", "@owlmeans/error": "^0.1.18-rc.38", "@owlmeans/resource": "^0.1.18-rc.40" } }, "sha512-EMR+nUDWN7e1VV+7zOuLaS+Ds5Wz3S+/YBlveFEq9jQ6isIhYYBBMjxZzCh1M5lbJMSEOeeRMYfbqIWsv5L4JA=="],
 
-    "@owlmeans/test": ["@owlmeans/test@0.1.18-rc.33", "", { "dependencies": { "@owlmeans/context": "^0.1.18-rc.32" } }, "sha512-Qjd9VANrrKqVm9gvyhih7Vg/noiPa+LMayiVe4U6JtDcpV7tJQcSJc76Jj3EUgytJCRWliBNeKLoVU/DU9VZhg=="],
+    "@owlmeans/test": ["@owlmeans/test@0.1.18-rc.35", "", { "dependencies": { "@owlmeans/context": "^0.1.18-rc.34" } }, "sha512-X3EhnGpjlbQKHYYBDcDgoyhf23MlMvD7utj0YJjAFGLueJPgcBsCwgEhq93SvItv/BxlnPiwzH/Miu5MQBcUqQ=="],
 
-    "@owlmeans/test-auth": ["@owlmeans/test-auth@0.1.18-rc.44", "", { "dependencies": { "@owlmeans/auth": "^0.1.18-rc.38", "@owlmeans/auth-common": "^0.1.18-rc.45", "@owlmeans/basic-envelope": "^0.1.18-rc.44", "@owlmeans/basic-keys": "^0.1.18-rc.46", "@owlmeans/context": "^0.1.18-rc.32", "@owlmeans/entrypoint": "^0.1.18-rc.39", "@owlmeans/resource": "^0.1.18-rc.38", "@owlmeans/test": "^0.1.18-rc.33" } }, "sha512-cAFJdQBCWkSoKMGBHDMx6FL7Eo2ZuNWajWW9pFuhRUgA5qPUzm9QEp8HL9xnEP/tO19NRkBzmL8JeE/dLHCcYA=="],
+    "@owlmeans/test-auth": ["@owlmeans/test-auth@0.1.18-rc.46", "", { "dependencies": { "@owlmeans/auth": "^0.1.18-rc.40", "@owlmeans/auth-common": "^0.1.18-rc.47", "@owlmeans/basic-envelope": "^0.1.18-rc.46", "@owlmeans/basic-keys": "^0.1.18-rc.48", "@owlmeans/context": "^0.1.18-rc.34", "@owlmeans/entrypoint": "^0.1.18-rc.41", "@owlmeans/resource": "^0.1.18-rc.40", "@owlmeans/test": "^0.1.18-rc.35" } }, "sha512-MCwXK3hXq5/nInx6O2+Rjd/iKP0QlCIVa9C9IVGY12UE2fudnHd6nZQtct8lqeAShaB29KB8+hEzq1/os3mmTw=="],
 
-    "@owlmeans/test-ui": ["@owlmeans/test-ui@0.1.18-rc.47", "", { "dependencies": { "@owlmeans/auth": "^0.1.18-rc.38", "@owlmeans/basic-envelope": "^0.1.18-rc.44", "@owlmeans/basic-ids": "^0.1.18-rc.35", "@owlmeans/basic-keys": "^0.1.18-rc.46", "@owlmeans/test": "^0.1.18-rc.33", "@owlmeans/test-auth": "^0.1.18-rc.44", "playwright": "^1.61.1" }, "peerDependencies": { "react": "*", "react-dom": "*" }, "optionalPeers": ["react", "react-dom"] }, "sha512-yVpBty1XowbIT9EVaFyRUsV2ulC5ZAUHGTbtHnFaaHmfqQ/QVaB+CAQLBJ6/A8bA3m/Zjf3zkPnb7vk5G6p1Ag=="],
+    "@owlmeans/test-ui": ["@owlmeans/test-ui@0.1.18-rc.49", "", { "dependencies": { "@owlmeans/auth": "^0.1.18-rc.40", "@owlmeans/basic-envelope": "^0.1.18-rc.46", "@owlmeans/basic-ids": "^0.1.18-rc.37", "@owlmeans/basic-keys": "^0.1.18-rc.48", "@owlmeans/test": "^0.1.18-rc.35", "@owlmeans/test-auth": "^0.1.18-rc.46", "playwright": "^1.63.0" }, "peerDependencies": { "react": "*", "react-dom": "*" }, "optionalPeers": ["react", "react-dom"] }, "sha512-jgbkUBHEF757WuhMerUZ+7IEhNizPC7hlk3xooqRAgSBVBgksQw6I2PUUm1ZUYrZgtxm9EeRZW2qJmiKR0+9DQ=="],
 
     "@owlmeans/web-flow": ["@owlmeans/web-flow@workspace:libraries/common/packages/web-flow"],
 
-    "@oxc-project/types": ["@oxc-project/types@0.151.0", "", {}, "sha512-J1yXrIlNDZVzE3ada310xeAw7nH8yCAyLPuUIsjKatFPmfn5bS1oW+cM+QsGOtVWd5nhSpbwZWx/rue+r5Z+PA=="],
+    "@oxc-project/types": ["@oxc-project/types@0.152.0", "", {}, "sha512-oM/5rLBm2tPkg0iBgkH/FOeR3PCDpY19GTgAZjMFM8h9WI9VW7cLgzp6nwtarYKmovavIQZ+Fe/RKX/8C8O/Rw=="],
 
     "@react-native-async-storage/async-storage": ["@react-native-async-storage/async-storage@2.2.0", "", { "dependencies": { "merge-options": "^3.0.4" }, "peerDependencies": { "react-native": "^0.0.0-0 || >=0.65 <1.0" } }, "sha512-gvRvjR5JAaUZF8tv2Kcq/Gbt3JHwbKFYfmb445rhOj6NUMx3qPLixmDx5pZAyb9at1bYvJ4/eTUipU5aki45xw=="],
 
@@ -1023,41 +1022,41 @@
 
     "@remix-run/router": ["@remix-run/router@1.23.0", "", {}, "sha512-O3rHJzAQKamUz1fvE0Qaw0xSFqsA/yafi2iqeE0pvdFtCO1viYx8QL6f3Ln/aCCTLxs68SLf0KPM9eSeM8yBnA=="],
 
-    "@rolldown/binding-android-arm-eabi": ["@rolldown/binding-android-arm-eabi@1.2.10", "", { "os": "android", "cpu": "arm" }, "sha512-bp9svZb+QurZeh+8H4BhrZkifEB0YBNvTVzNSJnJQkj4NrRwmQoDUCGP0vSN7PbvLeM7l1tK6GXL8mrTiH2myg=="],
+    "@rolldown/binding-android-arm-eabi": ["@rolldown/binding-android-arm-eabi@1.2.12", "", { "os": "android", "cpu": "arm" }, "sha512-dB/a1214qKfHMXCpgqR4OZT+jS4kTyEXbQGJPqzobt5EwH5rX080pxE37alt3RzvR1bf1Yz/yGqRfrYAxuPw0A=="],
 
-    "@rolldown/binding-android-arm64": ["@rolldown/binding-android-arm64@1.2.10", "", { "os": "android", "cpu": "arm64" }, "sha512-wm6Dld3RXUAZ/gRWKyUy+4W1B5CB5UeFaOzsSWJWEdxZXHH8rCYiZ5dGe6oJmhsunAPWzL7FZV+VtvmN5Ye2eA=="],
+    "@rolldown/binding-android-arm64": ["@rolldown/binding-android-arm64@1.2.12", "", { "os": "android", "cpu": "arm64" }, "sha512-7KHFgQ5VJxIHcLlrwrc3Xbds7oTNQT7Pgi9gQCJKrd2VGab/UksIOYp6VD8MzCstGxOKMgNamPwUCfxPdP1OHg=="],
 
-    "@rolldown/binding-darwin-arm64": ["@rolldown/binding-darwin-arm64@1.2.10", "", { "os": "darwin", "cpu": "arm64" }, "sha512-UbEfXq/AqGNgRTV3ik+X/iR6mUxu2QdYAadwRxJWquUGnW6gDqdP1FtLtFXRow7RJx0ssRwi80XAPr4r+4DtsA=="],
+    "@rolldown/binding-darwin-arm64": ["@rolldown/binding-darwin-arm64@1.2.12", "", { "os": "darwin", "cpu": "arm64" }, "sha512-3YIhqHD96nA5SaYNRBR16HnGv4oavZvXfD/ayHM+oYZ0WD/8lBAtf6zQua4kEyAvpqrluKXl0lnOBoiNby7x9w=="],
 
-    "@rolldown/binding-darwin-x64": ["@rolldown/binding-darwin-x64@1.2.10", "", { "os": "darwin", "cpu": "x64" }, "sha512-7f5h17q5KZVx/ji1vb8OTq31ch1O2I7K8NPIr44GkyWTApXMIsmhWqZfgpOH10xeauqghDAvGlZktasCkcF6Eg=="],
+    "@rolldown/binding-darwin-x64": ["@rolldown/binding-darwin-x64@1.2.12", "", { "os": "darwin", "cpu": "x64" }, "sha512-UuuJ35MFw4gmFOrE9pEqIV+K3syIKveph+Qc1/ljHZVdoDW4pz/JHR/eMVom+TZGl/5OOvGJOWaOCVt3ZfqhxA=="],
 
-    "@rolldown/binding-freebsd-x64": ["@rolldown/binding-freebsd-x64@1.2.10", "", { "os": "freebsd", "cpu": "x64" }, "sha512-ynOk/eEYhC6ZB2xCGvKrEOwE58oBy9LnrAqtkrDF9Fz1VTaNdGZTsV0VarJdhPwb+sOJTGjCLwcuyRJZ1dnMcQ=="],
+    "@rolldown/binding-freebsd-x64": ["@rolldown/binding-freebsd-x64@1.2.12", "", { "os": "freebsd", "cpu": "x64" }, "sha512-uMvssit0a4W+/7D8CbHUvG719mH3R2jwXAlh/XcPvuHTE0g++LymF88DCGNX0HM2rBOn0xrzgXktIB6fLSJBTQ=="],
 
-    "@rolldown/binding-linux-arm-gnueabihf": ["@rolldown/binding-linux-arm-gnueabihf@1.2.10", "", { "os": "linux", "cpu": "arm" }, "sha512-ERrAs185meZZhGan7a4l3RiiJK1ArSDlHdST++uvSxe+FDbR4TwUPahT/cbZJvaG6fIpDpF78surN+tX708Y4Q=="],
+    "@rolldown/binding-linux-arm-gnueabihf": ["@rolldown/binding-linux-arm-gnueabihf@1.2.12", "", { "os": "linux", "cpu": "arm" }, "sha512-XcFu0R0xWnwzSf4IQgFH1rJIckPN1pLy2R+4r9IDB7Yfu/ys9cVqfa4pBrMHj7a3gl8mIR4nRNPg0e5IvEVs6g=="],
 
-    "@rolldown/binding-linux-arm64-gnu": ["@rolldown/binding-linux-arm64-gnu@1.2.10", "", { "os": "linux", "cpu": "arm64" }, "sha512-KN7OHKD0J3jy1UzBwZWPxpwhODf9IARUIJcrH+yLYKOcmegZ8luEUM38lDP1bDVj40yP6PsSzCqOJF76vljFnQ=="],
+    "@rolldown/binding-linux-arm64-gnu": ["@rolldown/binding-linux-arm64-gnu@1.2.12", "", { "os": "linux", "cpu": "arm64" }, "sha512-260UrKgn8tz39ak+SMDOirKzr7V04M9dWPw5llW00SwBivCZoWcRBKV1d8cXnRkUmSZA3BdiUmBHWk7734Ulpw=="],
 
-    "@rolldown/binding-linux-arm64-musl": ["@rolldown/binding-linux-arm64-musl@1.2.10", "", { "os": "linux", "cpu": "arm64" }, "sha512-8l9wP8O+wa8zD6iw6egSfzVtu7oZVfH3hlUsMM4MwbLMhxleqeoXbZzjddyK3YyNlwLhqznq3tF7PkNJ8T/V2w=="],
+    "@rolldown/binding-linux-arm64-musl": ["@rolldown/binding-linux-arm64-musl@1.2.12", "", { "os": "linux", "cpu": "arm64" }, "sha512-5YK1I9SqDkbPgc1IA8BgDl34suqUS2q0KWnBrirm0E51YjOs6eo6dV6jbQfNE/argHRSvd0QUGgtpIoYx+WWpw=="],
 
-    "@rolldown/binding-linux-ppc64-gnu": ["@rolldown/binding-linux-ppc64-gnu@1.2.10", "", { "os": "linux", "cpu": "ppc64" }, "sha512-SeXNKeQzA5kLhz/J0CH6ZP0/HJ3v1xm/0YbiYpE0kK7emfRC2OIGGIaE14xzkISEGv2aYuUSpiLiU5Gbq+OI0A=="],
+    "@rolldown/binding-linux-ppc64-gnu": ["@rolldown/binding-linux-ppc64-gnu@1.2.12", "", { "os": "linux", "cpu": "ppc64" }, "sha512-Rkcrmp7eFRg74yL5fXEU91JEWbdEPLevWwGtXpmhbjlD1StScbWTmO94Bhly+Mo+ketKYkdmM1vNUKeWSlx8cQ=="],
 
-    "@rolldown/binding-linux-s390x-gnu": ["@rolldown/binding-linux-s390x-gnu@1.2.10", "", { "os": "linux", "cpu": "s390x" }, "sha512-mtht0nR+y8/hart4175Ll15w7lY8dg7CtQ+j2FDNTsDRspOWTK/2V3l0aj9sIj7XmvqxT8Yli/wq22e7feTTWg=="],
+    "@rolldown/binding-linux-s390x-gnu": ["@rolldown/binding-linux-s390x-gnu@1.2.12", "", { "os": "linux", "cpu": "s390x" }, "sha512-qvK4DuAsQc2BSjlx+Xr+IzOIvvxbGZqxFwdWfG6F518Erj0GGISyQbJ6pIappnOxlNPzNHvo/L0BwB30GZ+zVw=="],
 
-    "@rolldown/binding-linux-x64-gnu": ["@rolldown/binding-linux-x64-gnu@1.2.10", "", { "os": "linux", "cpu": "x64" }, "sha512-FSM94nGd55NYo48usCyM/nHfUKRnqc9+b0vJNuKV0oCCpIp/OGims7rO1Nv/DkFkt0S/s2rxsJ2kkS8J3HcpeA=="],
+    "@rolldown/binding-linux-x64-gnu": ["@rolldown/binding-linux-x64-gnu@1.2.12", "", { "os": "linux", "cpu": "x64" }, "sha512-Q9uLBO53Xd4QIq1WOycVQyPP1O4HhraEV2qqb3uTrnVw6QZih9duY4vNXOivL1xoUS1/z+W8eF4NMfl2a8Sdjw=="],
 
-    "@rolldown/binding-linux-x64-musl": ["@rolldown/binding-linux-x64-musl@1.2.10", "", { "os": "linux", "cpu": "x64" }, "sha512-C3YxNB16myRLs7o+B+6PnQ6jBsdIS4+AE4Ah8glVGhDpEv9AOvxhZ/1duAb4B0UGczEK/lBbccksd8VI+p6zfw=="],
+    "@rolldown/binding-linux-x64-musl": ["@rolldown/binding-linux-x64-musl@1.2.12", "", { "os": "linux", "cpu": "x64" }, "sha512-3IBxWFMjbOZskDPKv8Lf9BCnahlKuHthWkYnyIxOH/QcJrFcS4EmcenthApkwr/5+nEqZlLzeYbxeMaX7A5u4g=="],
 
-    "@rolldown/binding-openharmony-arm64": ["@rolldown/binding-openharmony-arm64@1.2.10", "", { "os": "none", "cpu": "arm64" }, "sha512-571TlE/F1eeTjjdjYAMMMPs1Mfv3MtX6s3+ZKVU6HiUjZ5Njc6c/qzNy/8K3zALTZnaw3JQVYrHxvNfjm43KAg=="],
+    "@rolldown/binding-openharmony-arm64": ["@rolldown/binding-openharmony-arm64@1.2.12", "", { "os": "none", "cpu": "arm64" }, "sha512-xtX61xg4LKPkPWilZU1ynKClz5Gj4bf74LML4r3eVLWumKnGjoEr1OSHQhMdbBDoYTi+yjrujvpZe2pUnqCrrA=="],
 
-    "@rolldown/binding-win32-arm64-msvc": ["@rolldown/binding-win32-arm64-msvc@1.2.10", "", { "os": "win32", "cpu": "arm64" }, "sha512-QXW+ZWaiqs2c7Fi++D/SsW07LTPcUrncxcskJGfGNBoaLik1IU6fJymz4HsqwEO0u5Iq11yTO0B/mc4cPk7jrQ=="],
+    "@rolldown/binding-win32-arm64-msvc": ["@rolldown/binding-win32-arm64-msvc@1.2.12", "", { "os": "win32", "cpu": "arm64" }, "sha512-At7fPB6PCaIjzgIhEZFxuT+BBFqiQibJDT4d3PhiR3f4E7bbMZF4aKblbFfEM3sETRDd1YiQx/+U/g/B/ou5Ew=="],
 
-    "@rolldown/binding-win32-x64-msvc": ["@rolldown/binding-win32-x64-msvc@1.2.10", "", { "os": "win32", "cpu": "x64" }, "sha512-5FQFGgah17YeMtG1Yd5a+rMxQpTksyNXxRtKz06FVTaQw3RKYUJQbUoKk0/5jrXBpDo+7makNP7UHA2LQyH64A=="],
+    "@rolldown/binding-win32-x64-msvc": ["@rolldown/binding-win32-x64-msvc@1.2.12", "", { "os": "win32", "cpu": "x64" }, "sha512-WIw2haVKwjuYdXkHaoC0mF8Le71TuCBxjrdKqLbJGctbBABj+ClfmNvtbOnzpq3RokNo5+V1qhtSzJyXorsklQ=="],
 
     "@rolldown/pluginutils": ["@rolldown/pluginutils@1.0.1", "", {}, "sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw=="],
 
     "@scure/base": ["@scure/base@2.4.0", "", {}, "sha512-thZ1TuJwFwBblOhgsjDKvvGirBxNp+wSvY/DR6tJBJOTDhdAAcHJ8Vbr2eFnqaxeca4+t0i9KBf+uHYGWwZORg=="],
 
-    "@scure/bip39": ["@scure/bip39@1.6.0", "", { "dependencies": { "@noble/hashes": "~1.8.0", "@scure/base": "~1.2.5" } }, "sha512-+lF0BbLiJNwVlev4eKelw1WWLaiKXw7sSl8T6FvBlWkdX+94aGJ4o8XjUdlyhTCjd8c+B3KT3JfS8P0bLRNU6A=="],
+    "@scure/bip39": ["@scure/bip39@2.4.0", "", { "dependencies": { "@noble/hashes": "2.4.0" } }, "sha512-82dxFbZUYboyOf0AXiydsQrFQ5Q4h9mX+O2UkE91ROYmsc0BKMGZLwDmy96Jpa2+vrtoxomjUhy1RPIgH/r2nA=="],
 
     "@sinclair/typebox": ["@sinclair/typebox@0.27.10", "", {}, "sha512-MTBk/3jGLNB2tVxv6uLlFh1iu64iYOQ2PbdOSK3NW8JZsmlaOh2q6sdtKowBhfw8QFLmYNzTW4/oK4uATIi6ZA=="],
 
@@ -1101,7 +1100,7 @@
 
     "@types/parse-json": ["@types/parse-json@4.0.2", "", {}, "sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw=="],
 
-    "@types/qs": ["@types/qs@6.15.0", "", {}, "sha512-JawvT8iBVWpzTrz3EGw9BTQFg3BQNmwERdKE22vlTxawwtbyUSlMppvZYKLZzB5zgACXdXxbD3m1bXaMqP/9ow=="],
+    "@types/qs": ["@types/qs@6.15.1", "", {}, "sha512-GZHUBZR9hckSUhrxmp1nG6NwdpM9fCunJwyThLW1X3AyHgd9IlHb6VANpQQqDr2o/qQp6McZ3y/IA2rVzKzSbw=="],
 
     "@types/react": ["@types/react@19.3.0", "", { "dependencies": { "csstype": "^3.2.2" } }, "sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg=="],
 
@@ -1110,8 +1109,6 @@
     "@types/react-native-vector-icons": ["@types/react-native-vector-icons@6.4.18", "", { "dependencies": { "@types/react": "*", "@types/react-native": "^0.70" } }, "sha512-YGlNWb+k5laTBHd7+uZowB9DpIK3SXUneZqAiKQaj1jnJCZM0x71GDim5JCTMi4IFkhc9m8H/Gm28T5BjyivUw=="],
 
     "@types/stack-utils": ["@types/stack-utils@2.0.3", "", {}, "sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw=="],
-
-    "@types/uuid": ["@types/uuid@11.0.0", "", { "dependencies": { "uuid": "*" } }, "sha512-HVyk8nj2m+jcFRNazzqyVKiZezyhDKrGUA3jlEcg/nZ6Ms+qHwocba1Y/AaVaznJTAM9xpdFSh+ptbNrhOGvZA=="],
 
     "@types/yargs": ["@types/yargs@17.0.35", "", { "dependencies": { "@types/yargs-parser": "*" } }, "sha512-qUHkeCyQFxMXg79wQfTtfndEC+N9ZZg76HJftDJp+qH2tV7Gj4OJi7l+PiWwJ+pWtW8GwSmqsDj/oymhrTWXjg=="],
 
@@ -1177,7 +1174,7 @@
 
     "acorn": ["acorn@8.16.0", "", { "bin": { "acorn": "bin/acorn" } }, "sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw=="],
 
-    "agent-base": ["agent-base@7.1.4", "", {}, "sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ=="],
+    "agent-base": ["agent-base@6.0.2", "", { "dependencies": { "debug": "4" } }, "sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ=="],
 
     "ajv": ["ajv@8.20.0", "", { "dependencies": { "fast-deep-equal": "^3.1.3", "fast-uri": "^3.0.1", "json-schema-traverse": "^1.0.0", "require-from-string": "^2.0.2" } }, "sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA=="],
 
@@ -1209,7 +1206,7 @@
 
     "asynckit": ["asynckit@0.4.0", "", {}, "sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q=="],
 
-    "axios": ["axios@1.15.2", "", { "dependencies": { "follow-redirects": "^1.15.11", "form-data": "^4.0.5", "proxy-from-env": "^2.1.0" } }, "sha512-wLrXxPtcrPTsNlJmKjkPnNPK2Ihe0hn0wGSaTEiHRPxwjvJwT3hKmXF4dpqxmPO9SoNb2FsYXj/xEo0gHN+D5A=="],
+    "axios": ["axios@1.20.0", "", { "dependencies": { "follow-redirects": "^1.16.0", "form-data": "^4.0.6", "https-proxy-agent": "^5.0.1", "proxy-from-env": "^2.1.0" } }, "sha512-r8aOh8j9cGKpgQAqpzrUHnSIc6a59Y3Xf/cv8sy1DrHCkZHzQGEuoq1tARk6qSyDdtQGSDgpb9kFlruzPvrgwg=="],
 
     "babel-jest": ["babel-jest@29.7.0", "", { "dependencies": { "@jest/transform": "^29.7.0", "@types/babel__core": "^7.1.14", "babel-plugin-istanbul": "^6.1.1", "babel-preset-jest": "^29.6.3", "chalk": "^4.0.0", "graceful-fs": "^4.2.9", "slash": "^3.0.0" }, "peerDependencies": { "@babel/core": "^7.8.0" } }, "sha512-BrvGY3xZSwEcCzKvKsCi2GgHqDqsYkOP4/by5xCgIwGXQxIEh+8ew3gmrE1y7XRR6LHZIj6yLYnUi/mm2KXKBg=="],
 
@@ -1275,7 +1272,7 @@
 
     "caniuse-lite": ["caniuse-lite@1.0.30001791", "", {}, "sha512-yk0l/YSrOnFZk3UROpDLQD9+kC1l4meK/wed583AXrzoarMGJcbRi2Q4RaUYbKxYAsZ8sWmaSa/DsLmdBeI1vQ=="],
 
-    "canonicalize": ["canonicalize@2.1.0", "", { "bin": { "canonicalize": "bin/canonicalize.js" } }, "sha512-F705O3xrsUtgt98j7leetNhTWPe+5S72rlL5O4jA1pKqBVQ/dT1O1D6PFxmSXvc0SUOinWS57DKx0I3CHrXJHQ=="],
+    "canonicalize": ["canonicalize@5.1.0", "", { "bin": { "canonicalize": "bin/canonicalize.js" } }, "sha512-bab9+WefZljqQ8jT0qRwVmTyzAUU63K97QIQD3agynIBrb6sa5M2eAy8Hv8K3p4V9+ONVYZKtGYl4Dg+/5Gumw=="],
 
     "chalk": ["chalk@4.1.2", "", { "dependencies": { "ansi-styles": "^4.1.0", "supports-color": "^7.1.0" } }, "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="],
 
@@ -1455,7 +1452,7 @@
 
     "follow-redirects": ["follow-redirects@1.16.0", "", {}, "sha512-y5rN/uOsadFT/JfYwhxRS5R7Qce+g3zG97+JrtFZlC9klX/W5hD7iiLzScI4nZqUS7DNUdhPgw4xI8W2LuXlUw=="],
 
-    "form-data": ["form-data@4.0.5", "", { "dependencies": { "asynckit": "^0.4.0", "combined-stream": "^1.0.8", "es-set-tostringtag": "^2.1.0", "hasown": "^2.0.2", "mime-types": "^2.1.12" } }, "sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w=="],
+    "form-data": ["form-data@4.0.6", "", { "dependencies": { "asynckit": "^0.4.0", "combined-stream": "^1.0.8", "es-set-tostringtag": "^2.1.0", "hasown": "^2.0.4", "mime-types": "^2.1.35" } }, "sha512-vKatAh4SlVfgbv+YtmhiRjhEMJsYpsG1Y2rMQtR+SVSbytsSD1YGzDIcrAJmdFec88u/+VoGmxnl+80gL1tRCQ=="],
 
     "fresh": ["fresh@0.5.2", "", {}, "sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q=="],
 
@@ -1507,7 +1504,7 @@
 
     "has-yarn": ["has-yarn@2.1.0", "", {}, "sha512-UqBRqi4ju7T+TqGNdqAO0PaSVGsDGJUBQvk9eUWNGRY1CFGDzYhLWoM7JQEemnlvVcv/YEmc2wNW8BC24EnUsw=="],
 
-    "hasown": ["hasown@2.0.3", "", { "dependencies": { "function-bind": "^1.1.2" } }, "sha512-ej4AhfhfL2Q2zpMmLo7U1Uv9+PyhIZpgQLGT1F9miIGmiCJIoCgSmczFdrc97mWT4kVY72KA+WnnhJ5pghSvSg=="],
+    "hasown": ["hasown@2.0.4", "", { "dependencies": { "function-bind": "^1.1.2" } }, "sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A=="],
 
     "hermes-compiler": ["hermes-compiler@0.0.0", "", {}, "sha512-boVFutx6ME/Km2mB6vvsQcdnazEYYI/jV1pomx1wcFUG/EVqTkr5CU0CW9bKipOA/8Hyu3NYwW3THg2Q1kNCfA=="],
 
@@ -1529,7 +1526,7 @@
 
     "http-errors": ["http-errors@2.0.1", "", { "dependencies": { "depd": "~2.0.0", "inherits": "~2.0.4", "setprototypeof": "~1.2.0", "statuses": "~2.0.2", "toidentifier": "~1.0.1" } }, "sha512-4FbRdAX+bSdmo4AUFuS0WNiPz8NgFt+r8ThgNWmlrjQjt1Q7ZR9+zTlce2859x4KSXrwIsaeTqDoKQmtP8pLmQ=="],
 
-    "https-proxy-agent": ["https-proxy-agent@7.0.6", "", { "dependencies": { "agent-base": "^7.1.2", "debug": "4" } }, "sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw=="],
+    "https-proxy-agent": ["https-proxy-agent@5.0.1", "", { "dependencies": { "agent-base": "6", "debug": "4" } }, "sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA=="],
 
     "human-signals": ["human-signals@2.1.0", "", {}, "sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw=="],
 
@@ -1889,7 +1886,7 @@
 
     "pupa": ["pupa@2.1.1", "", { "dependencies": { "escape-goat": "^2.0.0" } }, "sha512-l1jNAspIBSFqbT+y+5FosojNpVpF94nlI+wDUpqP9enwOTfHx9f0gh5nB96vl+6yTpsJsypeNrwfzPrKuHB41A=="],
 
-    "qs": ["qs@6.15.1", "", { "dependencies": { "side-channel": "^1.1.0" } }, "sha512-6YHEFRL9mfgcAvql/XhwTvf5jKcOiiupt2FiJxHkiX1z4j7WL8J/jRHYLluORvc1XxB5rV20KoeK00gVJamspg=="],
+    "qs": ["qs@6.16.0", "", { "dependencies": { "es-define-property": "^1.0.1", "side-channel": "^1.1.1" } }, "sha512-h6fhOIaRrID2CbEY2fqs+7t+UXZo+MLAnU5gRIq85uFtdiUPCdsApMlHhXogKVM4HM2DVbIjGNTTYH2OcmP1vA=="],
 
     "queue": ["queue@6.0.2", "", { "dependencies": { "inherits": "~2.0.3" } }, "sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA=="],
 
@@ -1909,9 +1906,9 @@
 
     "react-dom": ["react-dom@19.3.0", "", { "dependencies": { "scheduler": "^0.28.0" }, "peerDependencies": { "react": "^19.3.0" } }, "sha512-JDk8dgif51OjFoDE70+OT9ICyYr+69HlmihNwp1+Nsfbna3t5sIiCa9ZJktDmQ4/1b/rn26hIAR2uYXDMr5r0Q=="],
 
-    "react-hook-form": ["react-hook-form@7.74.0", "", { "peerDependencies": { "react": "^16.8.0 || ^17 || ^18 || ^19" } }, "sha512-yR6wHr99p9wFv686jhRWVSFhUvDvNbdUf2dKlbno8/VKOCuoNobDGC6S+M2dua9A9Yo8vpcrp8assIYbsZCQ9g=="],
+    "react-hook-form": ["react-hook-form@7.89.0", "", { "peerDependencies": { "@types/react": "*", "react": "^16.8.0 || ^17 || ^18 || ^19" }, "optionalPeers": ["@types/react"] }, "sha512-vKcoCfy8RKZDrhSdqsRFp0uEOdS1AhLjOL6hR7Wmfzg1akNxEhaPf5WORx8SgEQPVXakdDyDkqQp+KNxVnnPHg=="],
 
-    "react-i18next": ["react-i18next@17.0.14", "", { "dependencies": { "@babel/runtime": "^7.29.7", "html-parse-stringify": "^4.0.1", "use-sync-external-store": "^1.6.0" }, "peerDependencies": { "i18next": ">= 26.2.0", "react": ">= 16.8.0", "react-dom": "*", "react-native": "*", "typescript": "^5 || ^6 || ^7" }, "optionalPeers": ["react-dom", "react-native", "typescript"] }, "sha512-ZpMBfJL3BiXPuYHj5QMY1GwvKJNhE1vCxOJQ8BoMBdHP5XONTfi/Qss1nuRlnFdIl72PKo2jPmw+fxuLjRFgaQ=="],
+    "react-i18next": ["react-i18next@17.0.15", "", { "dependencies": { "@babel/runtime": "^7.29.7", "html-parse-stringify": "^4.0.1", "use-sync-external-store": "^1.6.0" }, "peerDependencies": { "i18next": ">= 26.2.0", "react": ">= 16.8.0", "react-dom": "*", "react-native": "*", "typescript": "^5 || ^6 || ^7" }, "optionalPeers": ["react-dom", "react-native", "typescript"] }, "sha512-7uYpx/oBkesLto7cOzOmfITlUBaXHCAcFahmgETMfWr8nbbWRRnVGvz8wsH/xpbNcyoH+NpCcnOQEqWPMO6/hw=="],
 
     "react-is": ["react-is@18.3.1", "", {}, "sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg=="],
 
@@ -1985,7 +1982,7 @@
 
     "rimraf": ["rimraf@3.0.2", "", { "dependencies": { "glob": "^7.1.3" }, "bin": { "rimraf": "bin.js" } }, "sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA=="],
 
-    "rolldown": ["rolldown@1.2.10", "", { "dependencies": { "@oxc-project/types": "=0.151.0", "@rolldown/pluginutils": "^1.0.0" }, "optionalDependencies": { "@rolldown/binding-android-arm-eabi": "1.2.10", "@rolldown/binding-android-arm64": "1.2.10", "@rolldown/binding-darwin-arm64": "1.2.10", "@rolldown/binding-darwin-x64": "1.2.10", "@rolldown/binding-freebsd-x64": "1.2.10", "@rolldown/binding-linux-arm-gnueabihf": "1.2.10", "@rolldown/binding-linux-arm64-gnu": "1.2.10", "@rolldown/binding-linux-arm64-musl": "1.2.10", "@rolldown/binding-linux-ppc64-gnu": "1.2.10", "@rolldown/binding-linux-s390x-gnu": "1.2.10", "@rolldown/binding-linux-x64-gnu": "1.2.10", "@rolldown/binding-linux-x64-musl": "1.2.10", "@rolldown/binding-openharmony-arm64": "1.2.10", "@rolldown/binding-win32-arm64-msvc": "1.2.10", "@rolldown/binding-win32-x64-msvc": "1.2.10" }, "bin": { "rolldown": "./bin/cli.mjs" } }, "sha512-OxkA08pSryMK7B3XiFA09B4OJ1xJMPgIYCBMY2xchzpqgBGsV1o0DetPAE+Sl3N3L4oCPiEzmHVSOj7iR04Zog=="],
+    "rolldown": ["rolldown@1.2.12", "", { "dependencies": { "@oxc-project/types": "=0.152.0", "@rolldown/pluginutils": "^1.0.0" }, "optionalDependencies": { "@rolldown/binding-android-arm-eabi": "1.2.12", "@rolldown/binding-android-arm64": "1.2.12", "@rolldown/binding-darwin-arm64": "1.2.12", "@rolldown/binding-darwin-x64": "1.2.12", "@rolldown/binding-freebsd-x64": "1.2.12", "@rolldown/binding-linux-arm-gnueabihf": "1.2.12", "@rolldown/binding-linux-arm64-gnu": "1.2.12", "@rolldown/binding-linux-arm64-musl": "1.2.12", "@rolldown/binding-linux-ppc64-gnu": "1.2.12", "@rolldown/binding-linux-s390x-gnu": "1.2.12", "@rolldown/binding-linux-x64-gnu": "1.2.12", "@rolldown/binding-linux-x64-musl": "1.2.12", "@rolldown/binding-openharmony-arm64": "1.2.12", "@rolldown/binding-win32-arm64-msvc": "1.2.12", "@rolldown/binding-win32-x64-msvc": "1.2.12" }, "bin": { "rolldown": "./bin/cli.mjs" } }, "sha512-8wafseiaG80xmXSfqidUNqZcylTlhmPZZt+za2m+js2sFZ8dTNlhIOV2WcbIPx2hgwPBJpEUGFAMZ9bgBBLTSQ=="],
 
     "run-async": ["run-async@2.4.1", "", {}, "sha512-tvVnVv01b8c1RrA6Ep7JkStj85Guv/YrMcwqYQnwjsAS2cTmmPGBBjAjpCW7RrSodNSoE2/qg9O4bceNvUuDgQ=="],
 
@@ -2019,7 +2016,7 @@
 
     "shell-quote": ["shell-quote@1.8.3", "", {}, "sha512-ObmnIF4hXNg1BqhnHmgbDETF8dLPCggZWBjkQfhZpbszZnYur5DUljTcCHii5LC3J5E0yeO/1LIMyH+UvHQgyw=="],
 
-    "side-channel": ["side-channel@1.1.0", "", { "dependencies": { "es-errors": "^1.3.0", "object-inspect": "^1.13.3", "side-channel-list": "^1.0.0", "side-channel-map": "^1.0.1", "side-channel-weakmap": "^1.0.2" } }, "sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw=="],
+    "side-channel": ["side-channel@1.1.1", "", { "dependencies": { "es-errors": "^1.3.0", "object-inspect": "^1.13.4", "side-channel-list": "^1.0.1", "side-channel-map": "^1.0.1", "side-channel-weakmap": "^1.0.2" } }, "sha512-6x6dK6zJdpTzF4sQeNYxwtvBzf6Eg4GtlesS94HOvTudUeyK2WXAaIfmDgsyslYrRBeFIlsi54AYsFGUuhmvrQ=="],
 
     "side-channel-list": ["side-channel-list@1.0.1", "", { "dependencies": { "es-errors": "^1.3.0", "object-inspect": "^1.13.4" } }, "sha512-mjn/0bi/oUURjc5Xl7IaWi/OJJJumuoJFQJfDDyO46+hBWsfaVM65TBHq2eoZBhzl9EchxOijpkbRC8SVBQU0w=="],
 
@@ -2147,7 +2144,7 @@
 
     "validate-npm-package-license": ["validate-npm-package-license@3.0.4", "", { "dependencies": { "spdx-correct": "^3.0.0", "spdx-expression-parse": "^3.0.0" } }, "sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew=="],
 
-    "vite": ["vite@8.3.1", "", { "dependencies": { "lightningcss": "^1.33.0", "picomatch": "^4.0.7", "postcss": "^8.5.28", "rolldown": "~1.2.9", "tinyglobby": "^0.2.17" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "@vitejs/devtools": "^0.7.1", "esbuild": "^0.27.0 || ^0.28.0", "jiti": ">=1.21.0", "less": "^4.0.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "@vitejs/devtools", "esbuild", "jiti", "less", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-/bvH9E9tmCXRGp2uXY3WbOldqpTwFkbha/8ANaEQ6VkxhH60KyqLwgZq6lG2y+4uT55x9+9eUHMpQ7uGnOCKjA=="],
+    "vite": ["vite@8.3.3", "", { "dependencies": { "lightningcss": "^1.33.0", "picomatch": "^4.0.7", "postcss": "^8.5.28", "rolldown": "~1.2.11", "tinyglobby": "^0.2.17" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "@vitejs/devtools": "^0.7.1", "esbuild": "^0.27.0 || ^0.28.0", "jiti": ">=1.21.0", "less": "^4.0.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "@vitejs/devtools", "esbuild", "jiti", "less", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-cTAldKPImjg6c+gk48U19POPn3GCBzZwpdsN8ZMEEcbpes+6/wvfqUd0C2y3qYY4wsj8PwgFwrZ/1jBPVttMSg=="],
 
     "vlq": ["vlq@1.0.1", "", {}, "sha512-gQpnTgkubC6hQgdIcRdYGDSDc+SaujOdyesZQMv6JlfQee/9Mp0Qhnys6WxDWvQnL5WZdT7o2Ul187aSt0Rq+w=="],
 
@@ -2201,11 +2198,11 @@
 
     "@istanbuljs/load-nyc-config/find-up": ["find-up@4.1.0", "", { "dependencies": { "locate-path": "^5.0.0", "path-exists": "^4.0.0" } }, "sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw=="],
 
-    "@jest/environment/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "@jest/environment/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
-    "@jest/fake-timers/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "@jest/fake-timers/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
-    "@jest/types/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "@jest/types/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
     "@owlmeans/client-module/@owlmeans/client-entrypoint": ["@owlmeans/client-entrypoint@0.1.17", "", { "dependencies": { "@owlmeans/api": "^0.1.17", "@owlmeans/client-config": "^0.1.17", "@owlmeans/client-context": "^0.1.17", "@owlmeans/client-route": "^0.1.17", "@owlmeans/config": "^0.1.17", "@owlmeans/context": "^0.1.17", "@owlmeans/entrypoint": "^0.1.17", "@owlmeans/error": "^0.1.17", "@owlmeans/route": "^0.1.17", "ajv-formats": "^3.0.1", "qs": "^6.13.0" }, "peerDependencies": { "ajv": "*" } }, "sha512-aYii/qQW70VkBF26a4gGPECY9jhOx6H+dRxaYd72aHGPYUFV+0YMg2nb1pHcEUwqLyEKmM9Hchw7ko/SKMmZvg=="],
 
@@ -2219,7 +2216,7 @@
 
     "@owlmeans/native-router/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
-    "@owlmeans/router/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "@owlmeans/router/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
     "@react-native/babel-plugin-codegen/@react-native/codegen": ["@react-native/codegen@0.85.2", "", { "dependencies": { "@babel/core": "^7.25.2", "@babel/parser": "^7.29.0", "hermes-parser": "0.33.3", "invariant": "^2.2.4", "nullthrows": "^1.1.1", "tinyglobby": "^0.2.15", "yargs": "^17.6.2" } }, "sha512-XCginmxh0//++EXVOEJHBVZxHla294FzLCFF6jXwAUjvXVhqyIKyxhABfz+r4OOmaiuWk4Rtd4arqdAzeHeprg=="],
 
@@ -2233,9 +2230,7 @@
 
     "@react-native/metro-config/metro-runtime": ["metro-runtime@0.84.3", "", { "dependencies": { "@babel/runtime": "^7.25.0", "flow-enums-runtime": "^0.0.6" } }, "sha512-o7HLRfMyVk9N2dUZ9VjQfB6xxUItL9Pi9WcqxURE7MEKOH6wbGt9/E92YdYLluTOtkzYAEVfdC6h6lcxqA+hMQ=="],
 
-    "@scure/bip39/@scure/base": ["@scure/base@1.2.6", "", {}, "sha512-g/nm5FgUa//MCj1gV09zTJTaM6KBAHqLN907YVQqf7zC49+DcO4B1so4ZX07Ef10Twr6nuqYEH9GEggFXA4Fmg=="],
-
-    "@types/graceful-fs/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "@types/graceful-fs/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
     "@vue/compiler-sfc/postcss": ["postcss@8.5.10", "", { "dependencies": { "nanoid": "^3.3.11", "picocolors": "^1.1.1", "source-map-js": "^1.2.1" } }, "sha512-pMMHxBOZKFU6HgAZ4eyGnwXF/EvPGGqUr0MnZ5+99485wwW41kW91A4LOGxSHhgugZmSChL5AlElNdwlNgcnLQ=="],
 
@@ -2249,7 +2244,7 @@
 
     "boxen/type-fest": ["type-fest@0.20.2", "", {}, "sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ=="],
 
-    "bun-types/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "bun-types/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
     "cacheable-request/get-stream": ["get-stream@5.2.0", "", { "dependencies": { "pump": "^3.0.0" } }, "sha512-nBF+F1rAZVCu/p7rjzgA+Yb4lfYXrpl7a6VmJrU8wF9I1CKvP/QwPNZHnOlwbTkY6dvtFIzFMSyQXbLoTQPRpA=="],
 
@@ -2263,11 +2258,11 @@
 
     "chalk/supports-color": ["supports-color@7.2.0", "", { "dependencies": { "has-flag": "^4.0.0" } }, "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="],
 
-    "chrome-launcher/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "chrome-launcher/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
     "chrome-launcher/escape-string-regexp": ["escape-string-regexp@4.0.0", "", {}, "sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA=="],
 
-    "chromium-edge-launcher/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "chromium-edge-launcher/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
     "chromium-edge-launcher/escape-string-regexp": ["escape-string-regexp@4.0.0", "", {}, "sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA=="],
 
@@ -2287,11 +2282,15 @@
 
     "error-ex/is-arrayish": ["is-arrayish@0.2.1", "", {}, "sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg=="],
 
+    "es-set-tostringtag/hasown": ["hasown@2.0.3", "", { "dependencies": { "function-bind": "^1.1.2" } }, "sha512-ej4AhfhfL2Q2zpMmLo7U1Uv9+PyhIZpgQLGT1F9miIGmiCJIoCgSmczFdrc97mWT4kVY72KA+WnnhJ5pghSvSg=="],
+
     "finalhandler/debug": ["debug@2.6.9", "", { "dependencies": { "ms": "2.0.0" } }, "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="],
 
     "finalhandler/encodeurl": ["encodeurl@1.0.2", "", {}, "sha512-TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w=="],
 
     "find-yarn-workspace-root2/pkg-dir": ["pkg-dir@4.2.0", "", { "dependencies": { "find-up": "^4.0.0" } }, "sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ=="],
+
+    "get-intrinsic/hasown": ["hasown@2.0.3", "", { "dependencies": { "function-bind": "^1.1.2" } }, "sha512-ej4AhfhfL2Q2zpMmLo7U1Uv9+PyhIZpgQLGT1F9miIGmiCJIoCgSmczFdrc97mWT4kVY72KA+WnnhJ5pghSvSg=="],
 
     "glob/minimatch": ["minimatch@3.1.5", "", { "dependencies": { "brace-expansion": "^1.1.7" } }, "sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w=="],
 
@@ -2313,21 +2312,23 @@
 
     "import-fresh/resolve-from": ["resolve-from@4.0.0", "", {}, "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g=="],
 
+    "is-core-module/hasown": ["hasown@2.0.3", "", { "dependencies": { "function-bind": "^1.1.2" } }, "sha512-ej4AhfhfL2Q2zpMmLo7U1Uv9+PyhIZpgQLGT1F9miIGmiCJIoCgSmczFdrc97mWT4kVY72KA+WnnhJ5pghSvSg=="],
+
     "istanbul-lib-instrument/semver": ["semver@6.3.1", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="],
 
-    "jest-environment-node/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "jest-environment-node/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
-    "jest-haste-map/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "jest-haste-map/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
-    "jest-mock/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "jest-mock/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
-    "jest-util/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "jest-util/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
     "jest-util/ci-info": ["ci-info@3.9.0", "", {}, "sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ=="],
 
     "jest-util/picomatch": ["picomatch@2.3.2", "", {}, "sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA=="],
 
-    "jest-worker/@types/node": ["@types/node@26.5.1", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g=="],
+    "jest-worker/@types/node": ["@types/node@26.6.4", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg=="],
 
     "jest-worker/supports-color": ["supports-color@8.1.1", "", { "dependencies": { "has-flag": "^4.0.0" } }, "sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q=="],
 
@@ -2348,6 +2349,8 @@
     "metro/ws": ["ws@7.5.10", "", { "peerDependencies": { "bufferutil": "^4.0.1", "utf-8-validate": "^5.0.2" }, "optionalPeers": ["bufferutil", "utf-8-validate"] }, "sha512-+dbF1tHwZpXcbOJdVOkzLDxZP1ailvSxM6ZweXTegylPny803bFhA+vqBYw4s31NSAk4S2Qz+AKXK9a4wkdjcQ=="],
 
     "metro-babel-transformer/hermes-parser": ["hermes-parser@0.35.0", "", { "dependencies": { "hermes-estree": "0.35.0" } }, "sha512-9JLjeHxBx8T4CAsydZR49PNZUaix+WpQJwu9p2010lu+7Kwl6D/7wYFFJxoz+aXkaaClp9Zfg6W6/zVlSJORaA=="],
+
+    "metro-cache/https-proxy-agent": ["https-proxy-agent@7.0.6", "", { "dependencies": { "agent-base": "^7.1.2", "debug": "4" } }, "sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw=="],
 
     "metro-runtime/@babel/runtime": ["@babel/runtime@7.29.2", "", {}, "sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g=="],
 
@@ -2505,6 +2508,8 @@
 
     "metro-babel-transformer/hermes-parser/hermes-estree": ["hermes-estree@0.35.0", "", {}, "sha512-xVx5Opwy8Oo1I5yGpVRhCvWL/iV3M+ylksSKVNlxxD90cpDpR/AR1jLYqK8HWihm065a6UI3HeyAmYzwS8NOOg=="],
 
+    "metro-cache/https-proxy-agent/agent-base": ["agent-base@7.1.4", "", {}, "sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ=="],
+
     "metro/hermes-parser/hermes-estree": ["hermes-estree@0.35.0", "", {}, "sha512-xVx5Opwy8Oo1I5yGpVRhCvWL/iV3M+ylksSKVNlxxD90cpDpR/AR1jLYqK8HWihm065a6UI3HeyAmYzwS8NOOg=="],
 
     "metro/mime-types/mime-db": ["mime-db@1.54.0", "", {}, "sha512-aU5EJuIN2WDemCcAp2vFBfp/m4EAhWJnUNSSw0ixs7/kXbd6Pg64EmwJkNdFhB8aWt1sH2CTXrLxo/iAGV3oPQ=="],
@@ -2579,6 +2584,8 @@
 
     "@react-native/metro-config/metro-config/metro/ws": ["ws@7.5.10", "", { "peerDependencies": { "bufferutil": "^4.0.1", "utf-8-validate": "^5.0.2" }, "optionalPeers": ["bufferutil", "utf-8-validate"] }, "sha512-+dbF1tHwZpXcbOJdVOkzLDxZP1ailvSxM6ZweXTegylPny803bFhA+vqBYw4s31NSAk4S2Qz+AKXK9a4wkdjcQ=="],
 
+    "@react-native/metro-config/metro-config/metro-cache/https-proxy-agent": ["https-proxy-agent@7.0.6", "", { "dependencies": { "agent-base": "^7.1.2", "debug": "4" } }, "sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw=="],
+
     "@react-native/metro-config/metro-config/metro-core/metro-resolver": ["metro-resolver@0.84.3", "", { "dependencies": { "flow-enums-runtime": "^0.0.6" } }, "sha512-pjEzGDtoM8DTHAIPK/9u9ZxszEiuRohYUVImWvgbnB91V4gqYJpQcoEYUugf2NIm1lrX5HNu0OvNqWmPBnGYjA=="],
 
     "chalk/ansi-styles/color-convert/color-name": ["color-name@1.1.4", "", {}, "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA=="],
@@ -2611,7 +2618,11 @@
 
     "@owlmeans/client-module/@owlmeans/client-entrypoint/@owlmeans/api/@owlmeans/auth-common/@owlmeans/resource": ["@owlmeans/resource@0.1.17", "", { "dependencies": { "@noble/hashes": "^1.5.0", "@owlmeans/context": "^0.1.17", "@owlmeans/error": "^0.1.17", "@scure/base": "^2.3.0" }, "peerDependencies": { "ajv": "*" } }, "sha512-AzuFz1BdRXe+UGRHQ3ioPMkHUtXqb1l7TE2hu1nlMxK3/UDXNlkfSqZNmx7RL1/MEUkf0c7JdFQPolKCVW9cNg=="],
 
+    "@owlmeans/client-module/@owlmeans/client-entrypoint/@owlmeans/config/@owlmeans/resource/@noble/hashes": ["@noble/hashes@1.8.0", "", {}, "sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A=="],
+
     "@owlmeans/module/@owlmeans/entrypoint/@owlmeans/auth/@owlmeans/error/@owlmeans/i18n": ["@owlmeans/i18n@0.1.17", "", {}, "sha512-E34tnemUw7krSvNcXhic5Zcdrjh+62WP3EFvyTgYaE5UoUz1i+eKjKm3mowH/rwmABZ2UpJpkZSdqlL1nwujHA=="],
+
+    "@react-native/metro-config/metro-config/metro-cache/https-proxy-agent/agent-base": ["agent-base@7.1.4", "", {}, "sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ=="],
 
     "@react-native/metro-config/metro-config/metro/hermes-parser/hermes-estree": ["hermes-estree@0.35.0", "", {}, "sha512-xVx5Opwy8Oo1I5yGpVRhCvWL/iV3M+ylksSKVNlxxD90cpDpR/AR1jLYqK8HWihm065a6UI3HeyAmYzwS8NOOg=="],
 
@@ -2624,6 +2635,18 @@
     "find-yarn-workspace-root2/pkg-dir/find-up/locate-path/p-locate": ["p-locate@4.1.0", "", { "dependencies": { "p-limit": "^2.2.0" } }, "sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A=="],
 
     "read-pkg-up/find-up/locate-path/p-locate/p-limit": ["p-limit@2.3.0", "", { "dependencies": { "p-try": "^2.0.0" } }, "sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w=="],
+
+    "@owlmeans/client-module/@owlmeans/client-entrypoint/@owlmeans/api/@owlmeans/auth-common/@owlmeans/basic-ids/@noble/hashes": ["@noble/hashes@1.8.0", "", {}, "sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A=="],
+
+    "@owlmeans/client-module/@owlmeans/client-entrypoint/@owlmeans/api/@owlmeans/auth-common/@owlmeans/basic-keys/@noble/ciphers": ["@noble/ciphers@1.3.0", "", {}, "sha512-2I0gnIVPtfnMw9ee9h1dJG7tp81+8Ob3OJb3Mv37rx5L40/b0i7djjCVvGOVqc9AEIQyvyu1i6ypKdFw8R8gQw=="],
+
+    "@owlmeans/client-module/@owlmeans/client-entrypoint/@owlmeans/api/@owlmeans/auth-common/@owlmeans/basic-keys/@noble/curves": ["@noble/curves@1.9.7", "", { "dependencies": { "@noble/hashes": "1.8.0" } }, "sha512-gbKGcRUYIjA3/zCCNaWDciTMFI0dCkvou3TL8Zmy5Nc7sJ47a0jtOeZoTaMxkuqRo9cRhjOdZJXegxYE5FN/xw=="],
+
+    "@owlmeans/client-module/@owlmeans/client-entrypoint/@owlmeans/api/@owlmeans/auth-common/@owlmeans/basic-keys/@noble/hashes": ["@noble/hashes@1.8.0", "", {}, "sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A=="],
+
+    "@owlmeans/client-module/@owlmeans/client-entrypoint/@owlmeans/api/@owlmeans/auth-common/@owlmeans/basic-keys/canonicalize": ["canonicalize@2.1.0", "", { "bin": { "canonicalize": "bin/canonicalize.js" } }, "sha512-F705O3xrsUtgt98j7leetNhTWPe+5S72rlL5O4jA1pKqBVQ/dT1O1D6PFxmSXvc0SUOinWS57DKx0I3CHrXJHQ=="],
+
+    "@owlmeans/client-module/@owlmeans/client-entrypoint/@owlmeans/api/@owlmeans/auth-common/@owlmeans/resource/@noble/hashes": ["@noble/hashes@1.8.0", "", {}, "sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A=="],
 
     "find-yarn-workspace-root2/pkg-dir/find-up/locate-path/p-locate/p-limit": ["p-limit@2.3.0", "", { "dependencies": { "p-try": "^2.0.0" } }, "sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w=="],
   }
