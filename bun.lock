@@ -65,7 +65,7 @@
     },
     "libraries/common/packages/auth": {
       "name": "@owlmeans/auth",
-      "version": "0.1.18-rc.40",
+      "version": "0.1.18-rc.41",
       "dependencies": {
         "@owlmeans/error": "^0.1.18-rc.38",
         "ajv-formats": "^3.0.1",
