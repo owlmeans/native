@@ -193,7 +193,7 @@
     },
     "libraries/common/packages/client-auth": {
       "name": "@owlmeans/client-auth",
-      "version": "0.1.18-rc.60",
+      "version": "0.1.18-rc.61",
       "dependencies": {
         "@owlmeans/auth": "^0.1.18-rc.41",
         "@owlmeans/auth-common": "^0.1.18-rc.49",
@@ -312,7 +312,7 @@
     },
     "libraries/common/packages/client-panel": {
       "name": "@owlmeans/client-panel",
-      "version": "0.1.18-rc.60",
+      "version": "0.1.18-rc.61",
       "dependencies": {
         "@hookform/resolvers": "^5.9.1",
         "@owlmeans/client": "^0.1.18-rc.53",
@@ -377,7 +377,7 @@
     },
     "libraries/common/packages/client-socket": {
       "name": "@owlmeans/client-socket",
-      "version": "0.1.18-rc.51",
+      "version": "0.1.18-rc.52",
       "dependencies": {
         "@owlmeans/auth": "^0.1.18-rc.41",
         "@owlmeans/basic-envelope": "^0.1.18-rc.48",
@@ -435,7 +435,7 @@
     },
     "libraries/common/packages/did": {
       "name": "@owlmeans/did",
-      "version": "0.1.18-rc.48",
+      "version": "0.1.18-rc.49",
       "dependencies": {
         "@noble/curves": "^2.4.0",
         "@noble/hashes": "^2.4.0",
@@ -539,7 +539,7 @@
     },
     "libraries/common/packages/socket": {
       "name": "@owlmeans/socket",
-      "version": "0.1.18-rc.42",
+      "version": "0.1.18-rc.43",
       "dependencies": {
         "@owlmeans/auth": "^0.1.18-rc.41",
         "@owlmeans/basic-ids": "^0.1.18-rc.39",
