@@ -9,6 +9,8 @@ behavior (including any AI `Co-Authored-By` trailer).
 
 ## Environments (mandatory)
 
+The primary environment is **main**; **stage** means `vslots/stage` (host alias `staging`).
+
 Work only on the environment the current request names — the checkout you are in and the hosts,
 releases and data it owns. Never deploy to, restart, or mutate another environment unless the
 operator asks explicitly in the current request. Activity of other environments sharing the machine
