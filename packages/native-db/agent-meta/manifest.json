@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "package": "@owlmeans/native-db",
   "version": "0.1.2",
-  "generatedAt": "2026-09-30T17:50:21.017Z",
-  "canonicalRepo": "https://github.com/owlmeans/common",
+  "generatedAt": "2026-11-01T18:50:42.820Z",
+  "canonicalRepo": "https://github.com/owlmeans/native",
   "entries": [
     {
       "kind": "skill",

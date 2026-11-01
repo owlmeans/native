@@ -28,7 +28,7 @@
     "@owlmeans/client-resource": "^0.1.19-rc.0",
     "@owlmeans/native-db": "^0.1.2",
     "@owlmeans/native-router": "^0.1.2",
-    "@owlmeans/route": "^0.1.18-rc.33",
+    "@owlmeans/route": "^0.1.19-rc.0",
     "react-native-dotenv": "^3.4.11"
   },
   "peerDependencies": {
