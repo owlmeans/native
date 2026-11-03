@@ -157,7 +157,7 @@
     },
     "libraries/common/packages/client": {
       "name": "@owlmeans/client",
-      "version": "0.1.19",
+      "version": "0.1.20-rc.0",
       "dependencies": {
         "@owlmeans/auth": "^0.1.19",
         "@owlmeans/client-context": "^0.1.19",
@@ -173,7 +173,7 @@
       },
       "devDependencies": {
         "@owlmeans/dep-config": "^0.1.19",
-        "@owlmeans/test-ui": "^0.1.19",
+        "@owlmeans/test-ui": "^0.1.20-rc.0",
         "@types/react": "^19.3.0",
         "@vitejs/plugin-react": "^6.1.2",
         "nodemon": "^3.1.14",
@@ -193,7 +193,7 @@
     },
     "libraries/common/packages/client-auth": {
       "name": "@owlmeans/client-auth",
-      "version": "0.1.19",
+      "version": "0.1.20-rc.0",
       "dependencies": {
         "@owlmeans/api": "^0.1.19",
         "@owlmeans/auth": "^0.1.19",
@@ -266,7 +266,7 @@
     },
     "libraries/common/packages/client-flow": {
       "name": "@owlmeans/client-flow",
-      "version": "0.1.19",
+      "version": "0.1.20-rc.0",
       "dependencies": {
         "@owlmeans/auth-common": "^0.1.19",
         "@owlmeans/client": "^0.1.19",
@@ -294,7 +294,7 @@
     },
     "libraries/common/packages/client-i18n": {
       "name": "@owlmeans/client-i18n",
-      "version": "0.1.19",
+      "version": "0.1.20-rc.0",
       "dependencies": {
         "@owlmeans/client": "^0.1.19",
         "@owlmeans/client-context": "^0.1.19",
@@ -315,7 +315,7 @@
     },
     "libraries/common/packages/client-panel": {
       "name": "@owlmeans/client-panel",
-      "version": "0.1.19",
+      "version": "0.1.20-rc.0",
       "dependencies": {
         "@hookform/resolvers": "^6.0.2",
         "@owlmeans/client": "^0.1.19",
@@ -380,7 +380,7 @@
     },
     "libraries/common/packages/client-socket": {
       "name": "@owlmeans/client-socket",
-      "version": "0.1.19",
+      "version": "0.1.20-rc.0",
       "dependencies": {
         "@owlmeans/auth": "^0.1.19",
         "@owlmeans/basic-envelope": "^0.1.19",
@@ -570,7 +570,7 @@
     },
     "libraries/common/packages/web-flow": {
       "name": "@owlmeans/web-flow",
-      "version": "0.1.19",
+      "version": "0.1.20-rc.0",
       "dependencies": {
         "@owlmeans/client": "^0.1.19",
         "@owlmeans/client-context": "^0.1.19",
@@ -989,7 +989,7 @@
 
     "@owlmeans/test-auth": ["@owlmeans/test-auth@0.1.19", "", { "dependencies": { "@owlmeans/auth": "^0.1.19", "@owlmeans/auth-common": "^0.1.19", "@owlmeans/basic-envelope": "^0.1.19", "@owlmeans/basic-keys": "^0.1.19", "@owlmeans/context": "^0.1.19", "@owlmeans/entrypoint": "^0.1.19", "@owlmeans/resource": "^0.1.19", "@owlmeans/test": "^0.1.19" } }, "sha512-p22ramfZgyn/HTEjKZu/aWQqu2S1xhj8QPgzN23Z8JYUgDRg8WueCXjm9E00wKTmvGhXkPt/I0qE/IPvfbWjIg=="],
 
-    "@owlmeans/test-ui": ["@owlmeans/test-ui@0.1.19", "", { "dependencies": { "@owlmeans/auth": "^0.1.19", "@owlmeans/auth-common": "^0.1.19", "@owlmeans/auth-email": "^0.1.19", "@owlmeans/basic-envelope": "^0.1.19", "@owlmeans/basic-ids": "^0.1.19", "@owlmeans/basic-keys": "^0.1.19", "@owlmeans/test": "^0.1.19", "@owlmeans/test-auth": "^0.1.19", "playwright": "^1.64.1" }, "peerDependencies": { "react": "*", "react-dom": "*" }, "optionalPeers": ["react", "react-dom"] }, "sha512-8l+tn18fatUhmRtONqwJdyGiYaSMFbjpnRNRvaH46Ib6NKfjn3KnElsr7LgX/70a0lCFH9AdU45y/DzJiVufQw=="],
+    "@owlmeans/test-ui": ["@owlmeans/test-ui@0.1.20-rc.0", "", { "dependencies": { "@owlmeans/auth": "^0.1.19", "@owlmeans/auth-common": "^0.1.19", "@owlmeans/auth-email": "^0.1.19", "@owlmeans/basic-envelope": "^0.1.19", "@owlmeans/basic-ids": "^0.1.19", "@owlmeans/basic-keys": "^0.1.19", "@owlmeans/test": "^0.1.19", "@owlmeans/test-auth": "^0.1.19", "playwright": "^1.64.1" }, "peerDependencies": { "react": "*", "react-dom": "*" }, "optionalPeers": ["react", "react-dom"] }, "sha512-bMrmQgljNOnnU0j0T89uoAi3fzxz4kBejBsfZavccGoX04Rq6rBd+gRXmmWPB7q4UObUlVuN/BYsO3FfMT5xPA=="],
 
     "@owlmeans/web-flow": ["@owlmeans/web-flow@workspace:libraries/common/packages/web-flow"],
 
@@ -2213,9 +2213,21 @@
 
     "@owlmeans/module/@owlmeans/entrypoint": ["@owlmeans/entrypoint@0.1.17", "", { "dependencies": { "@owlmeans/auth": "^0.1.17", "@owlmeans/context": "^0.1.17", "@owlmeans/route": "^0.1.17", "ajv": "^8.17.1" } }, "sha512-4mLCUeRr7laPmBvTnjpso2iAcinbZP5Ec0bOKrzFIN3OsK8KbJPvLHamwABM6lxEMz7z9gism7BTPjXve1iRGQ=="],
 
+    "@owlmeans/native-client/@owlmeans/client": ["@owlmeans/client@0.1.19", "", { "dependencies": { "@owlmeans/auth": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/client-entrypoint": "^0.1.19", "@owlmeans/client-resource": "^0.1.19", "@owlmeans/config": "^0.1.19", "@owlmeans/context": "^0.1.19", "@owlmeans/entrypoint": "^0.1.19", "@owlmeans/error": "^0.1.19", "@owlmeans/resource": "^0.1.19", "@owlmeans/router": "^0.1.19", "@owlmeans/state": "^0.1.19" }, "peerDependencies": { "@remix-run/router": "*", "react": "*" }, "optionalPeers": ["@remix-run/router"] }, "sha512-KeO6pPFzKC700DEWCRx3666AFl58sNS5yeVebGY8CySd05Mqj69eQnrFsAFW8n3y+ZdwHrK5JLKvlz3Q2P51nw=="],
+
+    "@owlmeans/native-client/@owlmeans/client-auth": ["@owlmeans/client-auth@0.1.19", "", { "dependencies": { "@owlmeans/api": "^0.1.19", "@owlmeans/auth": "^0.1.19", "@owlmeans/auth-common": "^0.1.19", "@owlmeans/basic-envelope": "^0.1.19", "@owlmeans/basic-keys": "^0.1.19", "@owlmeans/client": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/client-entrypoint": "^0.1.19", "@owlmeans/client-flow": "^0.1.19", "@owlmeans/client-i18n": "^0.1.19", "@owlmeans/client-resource": "^0.1.19", "@owlmeans/client-socket": "^0.1.19", "@owlmeans/config": "^0.1.19", "@owlmeans/context": "^0.1.19", "@owlmeans/did": "^0.1.19", "@owlmeans/entrypoint": "^0.1.19", "@owlmeans/error": "^0.1.19", "@owlmeans/flow": "^0.1.19", "@owlmeans/i18n": "^0.1.19", "@owlmeans/log": "^0.1.19", "@owlmeans/resource": "^0.1.19", "@owlmeans/socket": "^0.1.19", "@owlmeans/web-flow": "^0.1.19", "@scure/base": "^2.4.0" }, "peerDependencies": { "ajv": "*", "react": "*" } }, "sha512-5xTuU2mnk2ruR0IxTmeqnIfxhqTVPesT7eZGLQ1ot6Tt+dJO6Js+HhkBw2i4f3XX6avZgYPHrPymTnEKwaXHng=="],
+
     "@owlmeans/native-client/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
     "@owlmeans/native-db/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+
+    "@owlmeans/native-panel/@owlmeans/client": ["@owlmeans/client@0.1.19", "", { "dependencies": { "@owlmeans/auth": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/client-entrypoint": "^0.1.19", "@owlmeans/client-resource": "^0.1.19", "@owlmeans/config": "^0.1.19", "@owlmeans/context": "^0.1.19", "@owlmeans/entrypoint": "^0.1.19", "@owlmeans/error": "^0.1.19", "@owlmeans/resource": "^0.1.19", "@owlmeans/router": "^0.1.19", "@owlmeans/state": "^0.1.19" }, "peerDependencies": { "@remix-run/router": "*", "react": "*" }, "optionalPeers": ["@remix-run/router"] }, "sha512-KeO6pPFzKC700DEWCRx3666AFl58sNS5yeVebGY8CySd05Mqj69eQnrFsAFW8n3y+ZdwHrK5JLKvlz3Q2P51nw=="],
+
+    "@owlmeans/native-panel/@owlmeans/client-auth": ["@owlmeans/client-auth@0.1.19", "", { "dependencies": { "@owlmeans/api": "^0.1.19", "@owlmeans/auth": "^0.1.19", "@owlmeans/auth-common": "^0.1.19", "@owlmeans/basic-envelope": "^0.1.19", "@owlmeans/basic-keys": "^0.1.19", "@owlmeans/client": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/client-entrypoint": "^0.1.19", "@owlmeans/client-flow": "^0.1.19", "@owlmeans/client-i18n": "^0.1.19", "@owlmeans/client-resource": "^0.1.19", "@owlmeans/client-socket": "^0.1.19", "@owlmeans/config": "^0.1.19", "@owlmeans/context": "^0.1.19", "@owlmeans/did": "^0.1.19", "@owlmeans/entrypoint": "^0.1.19", "@owlmeans/error": "^0.1.19", "@owlmeans/flow": "^0.1.19", "@owlmeans/i18n": "^0.1.19", "@owlmeans/log": "^0.1.19", "@owlmeans/resource": "^0.1.19", "@owlmeans/socket": "^0.1.19", "@owlmeans/web-flow": "^0.1.19", "@scure/base": "^2.4.0" }, "peerDependencies": { "ajv": "*", "react": "*" } }, "sha512-5xTuU2mnk2ruR0IxTmeqnIfxhqTVPesT7eZGLQ1ot6Tt+dJO6Js+HhkBw2i4f3XX6avZgYPHrPymTnEKwaXHng=="],
+
+    "@owlmeans/native-panel/@owlmeans/client-i18n": ["@owlmeans/client-i18n@0.1.19", "", { "dependencies": { "@owlmeans/client": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/i18n": "^0.1.19", "@owlmeans/log": "^0.1.19", "i18next": "^26.5.11", "react-i18next": "^17.1.9" }, "peerDependencies": { "react": "*" } }, "sha512-qA7/5YPqhSINr2QpYVeFf8oSGXAb8TmWFSbEZYBf2PKuMUprgLq0ymoicHj0Pn6DDiOMKViz2ph9Vn8nxdphBQ=="],
+
+    "@owlmeans/native-panel/@owlmeans/client-panel": ["@owlmeans/client-panel@0.1.19", "", { "dependencies": { "@hookform/resolvers": "^6.0.2", "@owlmeans/client": "^0.1.19", "@owlmeans/client-entrypoint": "^0.1.19", "@owlmeans/client-i18n": "^0.1.19", "@owlmeans/client-route": "^0.1.19", "@owlmeans/entrypoint": "^0.1.19", "@owlmeans/error": "^0.1.19" }, "peerDependencies": { "@owlmeans/auth": "^0.1.19", "@owlmeans/client-auth": "^0.1.19", "@owlmeans/config": "^0.1.19", "@owlmeans/i18n": "^0.1.19", "@owlmeans/router": "^0.1.19", "ajv": "*", "react": "*", "react-hook-form": "*" }, "optionalPeers": ["@owlmeans/auth", "@owlmeans/client-auth"] }, "sha512-jaMEskeF8+u4m8bA0aQpBf7JMhOaiQBvuY2P5s4ZD/LYG7rd5S2VWe7dogwrfixbRK3IcuNCd6VMwtL+V5Rc5w=="],
 
     "@owlmeans/native-panel/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
@@ -2448,6 +2460,20 @@
     "@owlmeans/module/@owlmeans/entrypoint/@owlmeans/context": ["@owlmeans/context@0.1.17", "", {}, "sha512-GRmBzCWaZ48YuqipRkzspFNE30+zB2uikexdvjcMUdWxXdD1sp+l9uHbsEyJPLzCiSRGjQmcZB0lmXyj4egY7A=="],
 
     "@owlmeans/module/@owlmeans/entrypoint/@owlmeans/route": ["@owlmeans/route@0.1.17", "", { "dependencies": { "@owlmeans/context": "^0.1.17" } }, "sha512-hu4uKSjDVzDuWG8tRHG5Y4SfIbytr3k92DH6+rF4rY/j6J5i3/B6JVbMiW9m1hRkNcyKPpDA6/qnFb4dnvArSw=="],
+
+    "@owlmeans/native-client/@owlmeans/client-auth/@owlmeans/client-flow": ["@owlmeans/client-flow@0.1.19", "", { "dependencies": { "@owlmeans/auth-common": "^0.1.19", "@owlmeans/client": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/client-entrypoint": "^0.1.19", "@owlmeans/client-resource": "^0.1.19", "@owlmeans/config": "^0.1.19", "@owlmeans/context": "^0.1.19", "@owlmeans/entrypoint": "^0.1.19", "@owlmeans/error": "^0.1.19", "@owlmeans/flow": "^0.1.19", "@owlmeans/resource": "^0.1.19", "@owlmeans/route": "^0.1.19" }, "peerDependencies": { "react": "*" } }, "sha512-tXR65zwp+1UpRLvkbBJ4evfhGktrzhAoNZVOimdcV1jnhTprUKSeN1DBl4xczcZIEUm1/9xlQSSf91nHtEQDrA=="],
+
+    "@owlmeans/native-client/@owlmeans/client-auth/@owlmeans/client-i18n": ["@owlmeans/client-i18n@0.1.19", "", { "dependencies": { "@owlmeans/client": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/i18n": "^0.1.19", "@owlmeans/log": "^0.1.19", "i18next": "^26.5.11", "react-i18next": "^17.1.9" }, "peerDependencies": { "react": "*" } }, "sha512-qA7/5YPqhSINr2QpYVeFf8oSGXAb8TmWFSbEZYBf2PKuMUprgLq0ymoicHj0Pn6DDiOMKViz2ph9Vn8nxdphBQ=="],
+
+    "@owlmeans/native-client/@owlmeans/client-auth/@owlmeans/client-socket": ["@owlmeans/client-socket@0.1.19", "", { "dependencies": { "@owlmeans/auth": "^0.1.19", "@owlmeans/basic-envelope": "^0.1.19", "@owlmeans/basic-ids": "^0.1.19", "@owlmeans/client": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/client-entrypoint": "^0.1.19", "@owlmeans/context": "^0.1.19", "@owlmeans/entrypoint": "^0.1.19", "@owlmeans/log": "^0.1.19", "@owlmeans/socket": "^0.1.19" }, "peerDependencies": { "react": "*" } }, "sha512-wlDvgJHukIguu2yEcHzM399wE3zWMAFOm4no5xx31NEx9Qchf6wJieTL4IuiluUgc1ZyUYWrnGux93Wn4nnyng=="],
+
+    "@owlmeans/native-client/@owlmeans/client-auth/@owlmeans/web-flow": ["@owlmeans/web-flow@0.1.19", "", { "dependencies": { "@owlmeans/client": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/client-entrypoint": "^0.1.19", "@owlmeans/client-flow": "^0.1.19", "@owlmeans/client-resource": "^0.1.19", "@owlmeans/context": "^0.1.19", "@owlmeans/error": "^0.1.19", "@owlmeans/flow": "^0.1.19" }, "peerDependencies": { "react": "*" } }, "sha512-DyMWdPeLoRfdDlXWSX2SqtePFnaIg5vEa4ZH8W+Q+uTq+ygebq/WL4qBgXsDeDdBAJbrpWy+Fw9dH5atP1qWFg=="],
+
+    "@owlmeans/native-panel/@owlmeans/client-auth/@owlmeans/client-flow": ["@owlmeans/client-flow@0.1.19", "", { "dependencies": { "@owlmeans/auth-common": "^0.1.19", "@owlmeans/client": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/client-entrypoint": "^0.1.19", "@owlmeans/client-resource": "^0.1.19", "@owlmeans/config": "^0.1.19", "@owlmeans/context": "^0.1.19", "@owlmeans/entrypoint": "^0.1.19", "@owlmeans/error": "^0.1.19", "@owlmeans/flow": "^0.1.19", "@owlmeans/resource": "^0.1.19", "@owlmeans/route": "^0.1.19" }, "peerDependencies": { "react": "*" } }, "sha512-tXR65zwp+1UpRLvkbBJ4evfhGktrzhAoNZVOimdcV1jnhTprUKSeN1DBl4xczcZIEUm1/9xlQSSf91nHtEQDrA=="],
+
+    "@owlmeans/native-panel/@owlmeans/client-auth/@owlmeans/client-socket": ["@owlmeans/client-socket@0.1.19", "", { "dependencies": { "@owlmeans/auth": "^0.1.19", "@owlmeans/basic-envelope": "^0.1.19", "@owlmeans/basic-ids": "^0.1.19", "@owlmeans/client": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/client-entrypoint": "^0.1.19", "@owlmeans/context": "^0.1.19", "@owlmeans/entrypoint": "^0.1.19", "@owlmeans/log": "^0.1.19", "@owlmeans/socket": "^0.1.19" }, "peerDependencies": { "react": "*" } }, "sha512-wlDvgJHukIguu2yEcHzM399wE3zWMAFOm4no5xx31NEx9Qchf6wJieTL4IuiluUgc1ZyUYWrnGux93Wn4nnyng=="],
+
+    "@owlmeans/native-panel/@owlmeans/client-auth/@owlmeans/web-flow": ["@owlmeans/web-flow@0.1.19", "", { "dependencies": { "@owlmeans/client": "^0.1.19", "@owlmeans/client-context": "^0.1.19", "@owlmeans/client-entrypoint": "^0.1.19", "@owlmeans/client-flow": "^0.1.19", "@owlmeans/client-resource": "^0.1.19", "@owlmeans/context": "^0.1.19", "@owlmeans/error": "^0.1.19", "@owlmeans/flow": "^0.1.19" }, "peerDependencies": { "react": "*" } }, "sha512-DyMWdPeLoRfdDlXWSX2SqtePFnaIg5vEa4ZH8W+Q+uTq+ygebq/WL4qBgXsDeDdBAJbrpWy+Fw9dH5atP1qWFg=="],
 
     "@owlmeans/router/@types/node/undici-types": ["undici-types@8.9.0", "", {}, "sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg=="],
 
