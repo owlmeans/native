@@ -1,18 +1,22 @@
 ---
 name: versions
-description: How to manage package versions in the OwlMeans Native monorepo. All packages are synchronized at the same version as the common monorepo. Use when bumping versions, checking current version, or updating internal dependency references.
-allowed-tools: Bash(grep *) Bash(sed *) Bash(bun install)
+description: How to manage package versions in the OwlMeans Native monorepo. All packages are synchronized at one version; common packages are pinned by caret at the version common ships. Use when bumping versions, checking current version, or updating internal dependency references.
+allowed-tools: Bash(grep *) Bash(bun install)
 ---
 
 # Versioning — OwlMeans Native
 
 ## Version convention
 
-- All packages are **synchronized at the same version** as `common` — currently `0.1.2`
+- All packages are **synchronized at the same version** — currently `0.2.0`
 - All use `@owlmeans/*` namespace with MIT license
-- Version is set in each `packages/*/package.json` under the `"version"` field
-- Cross-package deps within this monorepo: `"@owlmeans/native-xxx": "^0.1.2"` (caret)
-- Deps on common packages: `"@owlmeans/xxx": "^0.1.2"` (caret, resolved via workspace linking)
+- Version is set in each `packages/*/package.json` under the `"version"` field; the root
+  `@owlmeans/native-root` manifest carries the same version
+- Cross-package deps within this monorepo: `"@owlmeans/native-client": "^0.2.0"` (caret on the
+  shared version)
+- Deps on common packages: a caret at the version common ships (`"@owlmeans/client": "^0.2.0"`),
+  resolved through the `libraries/common/packages/...` workspace entries. They move when common
+  releases (`bump-deps --consumers-of common` sweeps this repo), not when native bumps.
 
 ## Checking current version
 
@@ -22,21 +26,21 @@ grep '"version"' packages/native-client/package.json
 
 ## Bumping all packages to a new version
 
+Library-manager scripts, run from the library-manager checkout:
+
 ```bash
-OLD=0.1.2
-NEW=0.2.0
+# 1. every owned package → one version (writes the `version` fields and nothing else)
+bun run scripts/set-versions.ts --project native:0.3.0 --dry-run
+bun run scripts/set-versions.ts --project native:0.3.0
 
-# Update version field in all packages
-sed -i "s/\"version\": \"$OLD\"/\"version\": \"$NEW\"/g" packages/*/package.json
-
-# Update internal dep references (caret ranges)
-sed -i "s/\"\^$OLD\"/\"^$NEW\"/g" packages/*/package.json
-
-# Re-link workspace
-bun install
+# 2. realign the native cross-package carets onto it
+bun run scripts/bump-deps.ts --source native --for native --no-install --force
 ```
 
-**Important**: When bumping versions, also bump the corresponding packages in `common` to keep in sync.
+Set the root manifest's `version` by hand, then `bun install` here. Never rewrite the version
+strings with a textual `sed`: native can share a version with common, and a `sed` cannot tell a
+native pin from a common one — `bump-deps` rewrites only the pins of the packages the source repo
+owns.
 
 ## dep-config special case
 

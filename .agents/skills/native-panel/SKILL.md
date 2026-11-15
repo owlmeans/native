@@ -7,7 +7,7 @@ user-invocable: false
 # @owlmeans/native-panel
 
 **Layer:** Native UI (React Native "quadra" panel — mirrors `@owlmeans/web-panel` for mobile)
-**Install:** `"@owlmeans/native-panel": "^0.1.2"` in `dependencies`
+**Install:** `"@owlmeans/native-panel": "^0.2.0"` in `dependencies`
 
 ## Key Exports
 

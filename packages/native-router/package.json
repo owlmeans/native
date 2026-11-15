@@ -1,6 +1,6 @@
 {
   "name": "@owlmeans/native-router",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -32,7 +32,7 @@
     "typescript": "^6.0.2"
   },
   "dependencies": {
-    "@owlmeans/router": "^0.1.21",
+    "@owlmeans/router": "^0.2.0",
     "react-router-native": "6.30.0"
   },
   "publishConfig": {

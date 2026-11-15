@@ -1,6 +1,6 @@
 {
   "name": "@owlmeans/native-client",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -21,18 +21,18 @@
     }
   },
   "dependencies": {
-    "@owlmeans/api-config-client": "^0.1.21",
-    "@owlmeans/client": "^0.1.21",
-    "@owlmeans/client-auth": "^0.1.21",
-    "@owlmeans/client-context": "^0.1.21",
-    "@owlmeans/client-resource": "^0.1.21",
-    "@owlmeans/native-db": "^0.1.2",
-    "@owlmeans/native-router": "^0.1.2",
-    "@owlmeans/route": "^0.1.21",
+    "@owlmeans/api-config-client": "^0.2.0",
+    "@owlmeans/client": "^0.2.0",
+    "@owlmeans/client-auth": "^0.2.0",
+    "@owlmeans/client-context": "^0.2.0",
+    "@owlmeans/client-resource": "^0.2.0",
+    "@owlmeans/native-db": "^0.2.0",
+    "@owlmeans/native-router": "^0.2.0",
+    "@owlmeans/route": "^0.2.0",
     "react-native-dotenv": "^3.4.11"
   },
   "peerDependencies": {
-    "@owlmeans/router": "^0.1.21",
+    "@owlmeans/router": "^0.2.0",
     "react": "*",
     "react-native": "*",
     "react-native-permissions": "*",

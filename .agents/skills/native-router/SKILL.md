@@ -7,7 +7,7 @@ user-invocable: false
 # @owlmeans/native-router
 
 **Layer:** Native (router adapter — implements `@owlmeans/router` contract for React Native)
-**Install:** `"@owlmeans/native-router": "^0.1.2"` in `dependencies`
+**Install:** `"@owlmeans/native-router": "^0.2.0"` in `dependencies`
 
 ## Key Exports
 

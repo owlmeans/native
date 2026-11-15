@@ -7,7 +7,7 @@ user-invocable: false
 # @owlmeans/native-client
 
 **Layer:** Native (React Native "quadra" entry point — extends `@owlmeans/client`)
-**Install:** `"@owlmeans/native-client": "^0.1.2"` in `dependencies`
+**Install:** `"@owlmeans/native-client": "^0.2.0"` in `dependencies`
 
 ## Key Exports
 

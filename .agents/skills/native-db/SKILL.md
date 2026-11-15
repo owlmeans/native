@@ -7,7 +7,7 @@ user-invocable: false
 # @owlmeans/native-db
 
 **Layer:** Native (storage adapter for `@owlmeans/client-resource`'s `ClientDb` interface)
-**Install:** `"@owlmeans/native-db": "^0.1.2"` in `dependencies`
+**Install:** `"@owlmeans/native-db": "^0.2.0"` in `dependencies`
 
 ## Key Exports
 
