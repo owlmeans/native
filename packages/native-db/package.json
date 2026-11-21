@@ -21,15 +21,15 @@
     }
   },
   "dependencies": {
-    "@owlmeans/client-context": "^0.2.0",
-    "@owlmeans/client-resource": "^0.2.0",
-    "@owlmeans/context": "^0.2.0"
+    "@owlmeans/client-context": "^0.2.2",
+    "@owlmeans/client-resource": "^0.2.2",
+    "@owlmeans/context": "^0.2.2"
   },
   "peerDependencies": {
     "@react-native-async-storage/async-storage": "*"
   },
   "devDependencies": {
-    "@owlmeans/dep-config": "workspace:*",
+    "@owlmeans/dep-config": "^0.2.2",
     "@react-native-async-storage/async-storage": "^2.2.0",
     "nodemon": "^3.1.11",
     "typescript": "^6.0.2"

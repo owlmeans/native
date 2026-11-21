@@ -14,7 +14,7 @@ allowed-tools: Bash(grep *) Bash(bun install)
   `@owlmeans/native-root` manifest carries the same version
 - Cross-package deps within this monorepo: `"@owlmeans/native-client": "^0.2.0"` (caret on the
   shared version)
-- Deps on common packages: a caret at the version common ships (`"@owlmeans/client": "^0.2.1-rc.0"`),
+- Deps on common packages: a caret at the version common ships (`"@owlmeans/client": "^0.2.2"`),
   resolved through the `libraries/common/packages/...` workspace entries. They move when common
   releases (`bump-deps --consumers-of common` sweeps this repo), not when native bumps.
 

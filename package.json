@@ -46,7 +46,8 @@
     "libraries/common/packages/test",
     "libraries/common/packages/test-auth",
     "libraries/common/packages/test-ui",
-    "libraries/common/packages/web-flow"
+    "libraries/common/packages/web-flow",
+    "libraries/common/packages/web-router"
   ],
   "packageManager": "bun@1.4.0",
   "private": true,
